@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # IRAPE
-Open-source code repository for the paper "Conjecture and Inquiry: Quantifying Software Performance Requirements via Interactive Retrieval-Augmented Preference Elicitation"
+The repository for the ACL paper "Conjecture and Inquiry: Quantifying Software Performance Requirements via Interactive Retrieval-Augmented Preference Elicitation"
 
 ## Environment Setup
 Execute the following command in the root directory:
@@ -77,7 +77,5 @@ Experimental results will be saved in the `expriments/ablation/res` folder.
 python expriments/trade_off/trade_off.py
 ```
 Experimental results will be saved in the `expriments/trade_off/res` folder.
-=======
-# IRAP
-The repository for the ACL paper "Conjecture and Inquiry: Quantifying Software Performance Requirements via Interactive Retrieval-Augmented Preference Elicitation"
->>>>>>> 0c1d3926afb816e53db24f73b8a2990d25046234
+
+
