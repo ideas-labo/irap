@@ -1,0 +1,30 @@
+{"class": 1, "label": "no less than"}
+{"class": 1, "label": "at least"}
+{"class": 1, "label": "greater than"}
+{"class": 1, "label": "minimum of"}
+{"class": 1, "label": "not below"}
+{"class": 1, "label": "above"}
+{"class": 1, "label": "exceeding"}
+{"class": 1, "label": "no fewer than"}
+{"class": 1, "label": "greater than"}
+{"class": 1, "label": "at minimum"}
+{"class": 2, "label": "no more than"}
+{"class": 2, "label": "at most"}
+{"class": 2, "label": "less than"}
+{"class": 2, "label": "maximum of"}
+{"class": 2, "label": "not exceeding"}
+{"class": 2, "label": "under"}
+{"class": 2, "label": "below"}
+{"class": 2, "label": "up to"}
+{"class": 2, "label": "at maximum"}
+{"class": 2, "label": "within"}
+{"class": 3, "label": "exactly"}
+{"class": 3, "label": "equal to"}
+{"class": 3, "label": "precisely"}
+{"class": 3, "label": "specifically"}
+{"class": 3, "label": "fixed at"}
+{"class": 3, "label": "set to"}
+{"class": 3, "label": "equivalent to"}
+{"class": 3, "label": "identical to"}
+{"class": 3, "label": "precisely at"}
+{"class": 3, "label": "designated as"}

@@ -1,0 +1,15 @@
+{"index": 1, "p2p_distance": 0.8567900652377778, "chebyshev_distance": 1.0, "rmse": 0.6231600917902237, "area_difference": 0.505}
+{"index": 2, "p2p_distance": 4.0, "chebyshev_distance": 1.0, "rmse": 0.7263973951887227, "area_difference": 0.6403712296983759}
+{"index": 3, "p2p_distance": 4.0, "chebyshev_distance": 1.0, "rmse": 0.7263973951887227, "area_difference": 0.6403712296983759}
+{"index": 4, "p2p_distance": 0.8567900652377778, "chebyshev_distance": 1.0, "rmse": 0.6231600917902237, "area_difference": 0.505}
+{"index": 5, "p2p_distance": 0.8567900652377778, "chebyshev_distance": 1.0, "rmse": 0.6231600917902237, "area_difference": 0.505}
+{"index": 6, "p2p_distance": 0.5675730397605386, "chebyshev_distance": 0.9, "rmse": 0.4287773314903669, "area_difference": 0.3545454545454546}
+{"index": 7, "p2p_distance": 1.3467606709854887, "chebyshev_distance": 0.81, "rmse": 0.8100000000000002, "area_difference": 0.8060376166645449}
+{"index": 8, "p2p_distance": 1.2380952380952384, "chebyshev_distance": 1.0, "rmse": 0.8557452892070162, "area_difference": 0.7619047619047616}
+{"index": 9, "p2p_distance": 0.8567900652377778, "chebyshev_distance": 1.0, "rmse": 0.6231600917902237, "area_difference": 0.505}
+{"index": 10, "p2p_distance": 2.0, "chebyshev_distance": 1.0, "rmse": 0.5338539126015656, "area_difference": 0.5}
+{"index": 11, "p2p_distance": 0.8567900652377778, "chebyshev_distance": 1.0, "rmse": 0.6231600917902237, "area_difference": 0.505}
+{"index": 12, "p2p_distance": 0.9031128874149273, "chebyshev_distance": 1.0, "rmse": 0.37181984885156427, "area_difference": 0.19000000000000017}
+{"index": 13, "p2p_distance": 4.0, "chebyshev_distance": 1.0, "rmse": 0.7263973951887226, "area_difference": 0.6403712296983757}
+{"index": 14, "p2p_distance": 4.0, "chebyshev_distance": 1.0, "rmse": 0.7263973951887228, "area_difference": 0.6403712296983759}
+{"index": 15, "p2p_distance": 2.206679361071575, "chebyshev_distance": 1.0, "rmse": 0.6204836822995429, "area_difference": 0.49895}

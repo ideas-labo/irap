@@ -1,0 +1,23 @@
+{"sentence_id": 1, "sentence": "The system shall be able to handle 10000 concurrent users without performance degradation.", "label": [[9000.0, 0.0], [10000.0, 1.0]]}
+{"sentence_id": 2, "sentence": "Upon the USB being plugged in the system shall be able to be deployed and operational in less than 1 minute.", "label": [[60.0, 1.0], [66.0, 0.0]]}
+{"sentence_id": 3, "sentence": "The system shall be able to handle 1000 customers logged in concurrently at the same time.", "label": [[900.0, 0.0], [1000.0, 1.0], [1100.0, 0.0]]}
+{"sentence_id": 4, "sentence": "The system shall be able to retrieve 200 products per second.", "label": [[180.0, 0.0], [200.0, 1.0], [220.0, 0.0]]}
+{"sentence_id": 5, "sentence": "The system shall be able to add product to shopping cart in less than 2ms.", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 6, "sentence": "The system shall be able to search for a specified product in less than 1 second.", "label": [[1.0, 1.0], [1.1, 0.0]]}
+{"sentence_id": 7, "sentence": "The system shall be able to email customer and vendor in less than 1 second.", "label": [[1.0, 1.0], [1.1, 0.0]]}
+{"sentence_id": 8, "sentence": "The system shall be able to validate credit card in less than 2 seconds.", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 9, "sentence": "The system shall be able to acquire shipping charges in less than 2 seconds.", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 10, "sentence": "The system shall be able to restore 1000 records per second.", "label": [[900.0, 0.0], [1000.0, 1.0], [1100.0, 0.0]]}
+{"sentence_id": 11, "sentence": "The system shall have an availability of 99.99%.", "label": [[89.991, 0.0], [99.99, 1.0]]}
+{"sentence_id": 12, "sentence": "Cache hit ratio shall be maintained above 90% for frequently accessed data.", "label": [[81.0, 0.0], [90.0, 1.0]]}
+{"sentence_id": 13, "sentence": "Query times will take no longer than 5 seconds to any website.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 14, "sentence": "Sending the hyperlink to the default browser will take less than 1 second.", "label": [[1.0, 1.0], [1.1, 0.0]]}
+{"sentence_id": 15, "sentence": "Loading the program will take less than 10 seconds.", "label": [[10.0, 1.0], [11.0, 0.0]]}
+{"sentence_id": 16, "sentence": "Sorting results should take less than 0.1 seconds.", "label": [[0.1, 1.0], [0.11, 0.0]]}
+{"sentence_id": 17, "sentence": "A results page will display 100 results.", "label": [[90.0, 0.0], [100.0, 1.0], [110.0, 0.0]]}
+{"sentence_id": 18, "sentence": "The system shall be able to process user authentication requests in less than 500 milliseconds.", "label": [[500.0, 1.0], [550.0, 0.0]]}
+{"sentence_id": 19, "sentence": "The system shall maintain a maximum memory usage of 2GB under normal operating conditions.", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 20, "sentence": "ETCS is required to be functional to a maximum speed of 500 km/h.", "label": [[450.0, 0.0], [500.0, 1.0]]}
+{"sentence_id": 21, "sentence": "If acknowledgement is specified the driver shall acknowledge transfer from Full Supervision to Partial Supervision within 5 seconds", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 22, "sentence": "Data to enable investigation of accidents need only be stored for at least 24 hours, and shall be very detailed.", "label": [[21.6, 0.0], [24.0, 1.0], [26.4, 0.0]]}
+{"sentence_id": 23, "sentence": "The train running number shall consist of a maximum of 8 numeric digits", "label": [[7.2, 0.0], [8.0, 1.0], [8.8, 0.0]]}

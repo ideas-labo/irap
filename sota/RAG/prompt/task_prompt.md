@@ -1,0 +1,2 @@
+Please refer to the above difference samples. **Note that you need to analyze the differences from the base form to the prefer form and apply them to your current task** to provide a more preference-aligned quantitative form (prefer form) for the following performance requirement. The base form is provided; you need to infer the prefer form. (Output the result only in the form of a list of points, and submit just the final prefer form):
+> 

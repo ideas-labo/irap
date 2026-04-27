@@ -1,0 +1,4 @@
+The above data consists of several reference task samples I provided from external retrieval, also in the format `{"sentence" : "xxx", "base form" : [(x1, y1), (x2, y2), ...., (xn, yn)], "prefer form" : [(x1, y1), (x2, y2), ...., (xn, yn)]}`. You may analyze the results you just output and the samples I provided (note: not all samples I provide are relevant to the current performance requirement; you need to independently judge the relevance of these samples to the current task — the higher the relevance, the more referential the preferences are). Integrate this information and output the quantitative form that you believe is most likely to be the user's preferred one. Your final output must be in the form of a list of points. For example, your answer should only be: "[[10.0, 1.0], [11.0, 0.0]]".
+
+The input task you need to process is as follows:
+> 

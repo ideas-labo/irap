@@ -1,0 +1,54 @@
+[
+    {
+        "dataset": "Functional-Quality",
+        "result": [
+            {
+                "LQPR": {
+                    "P2P-Dist": "0.88 (0.35)",
+                    "Chebyshev": "0.76 (0.29)",
+                    "RMSE": "0.51 (0.22)",
+                    "Area-Diff": "0.34 (0.19)"
+                }
+            }
+        ]
+    },
+    {
+        "dataset": "Promise",
+        "result": [
+            {
+                "LQPR": {
+                    "P2P-Dist": "0.95 (0.34)",
+                    "Chebyshev": "0.46 (0.28)",
+                    "RMSE": "0.30 (0.21)",
+                    "Area-Diff": "0.24 (0.19)"
+                }
+            }
+        ]
+    },
+    {
+        "dataset": "PURE",
+        "result": [
+            {
+                "LQPR": {
+                    "P2P-Dist": "0.87 (0.38)",
+                    "Chebyshev": "0.57 (0.32)",
+                    "RMSE": "0.32 (0.24)",
+                    "Area-Diff": "0.26 (0.21)"
+                }
+            }
+        ]
+    },
+    {
+        "dataset": "Shaukat_et_al",
+        "result": [
+            {
+                "LQPR": {
+                    "P2P-Dist": "0.74 (0.31)",
+                    "Chebyshev": "0.40 (0.26)",
+                    "RMSE": "0.16 (0.18)",
+                    "Area-Diff": "0.21 (0.15)"
+                }
+            }
+        ]
+    }
+]

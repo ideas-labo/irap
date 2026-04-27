@@ -1,0 +1,577 @@
+{"input": "ReqView Desktop shall start in less than 10s.\n", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "The very first time it shall start in less than 30s.\n", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "User shall be able to work with documents up to 1000 objects.\n", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "User shall be able to work with documents up to 100 file attachments.\n", "output": "[[90.0, 0.0], [100.0, 1.0]]", "class": 1, "number": 100.0}
+{"input": "User shall be able to work with documents up to 100MB in size.\n", "output": "[[90.0, 0.0], [100.0, 1.0]]", "class": 1, "number": 100.0}
+{"input": "Response time for common edit operations (change attributes and structure) shall be less than 1s.\n", "output": "[[1000.0, 1.0], [1100.0, 0.0]]", "class": 2, "number": 1000.0}
+{"input": "Opening or saving a local file shall took less than 10s.\n", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "Scrolling requirements table shall be smooth with jerks shorter than 200ms.\n", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "Routine patching of the system shall be possible with minimal (i.e. less than 5 minutes) downtime.\n", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "Routine patching of the system shall be possible with no more than 1 hours downtime.", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The system shall refresh the display every 60 seconds.", "output": "[[54.0, 0.0], [60.0, 1.0], [66.0, 0.0]]", "class": 3, "number": 60.0}
+{"input": "The product shall respond fast to keep up-to-date data in the display.", "output": "[[0.0, 1.0], [100.0, 0.0]]", "class": 2, "number": 0.0}
+{"input": "The product shall produce search results in an acceptable time", "output": "[[0.0, 1.0], [1.0, 0.0]]", "class": 2, "number": 0.0}
+{"input": "Staff members shall be able to complete a set of tasks in a timely manner.", "output": "[[0.0, 0.0], [90.0, 1.0]]", "class": 1, "number": 90.0}
+{"input": "Total lead cycle time must be completed in 5 minutes.", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The response time shall be fast enough to maintain the flow of the game.  The response time shall be no more than 2 seconds.", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "The system shall respond to user authentication requests within **500ms** under normal load.  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "Survey submission latency shall not exceed **1 second**.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The system must render interactive cognitive assessments in **under 2 seconds** after initiation.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "Real-time mood-tracking data updates shall reflect within **300ms** of user input.  ", "output": "[[300.0, 1.0], [330.0, 0.0]]", "class": 2, "number": 300.0}
+{"input": "Therapist dashboard analytics shall load in **no more than 1.5 seconds** when accessing patient histories.  ", "output": "[[1.5, 1.0], [1.65, 0.0]]", "class": 2, "number": 1.5}
+{"input": "The system shall support **at least 1,000 concurrent users** during peak usage.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "The backend shall process **500 survey responses per minute** without degradation.  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "The database must handle **10,000 new patient records per hour** during bulk imports.  ", "output": "[[9000.0, 0.0], [10000.0, 1.0]]", "class": 1, "number": 10000.0}
+{"input": "The AI-driven symptom analyzer shall evaluate **50 patient inputs per second** with high accuracy.  ", "output": "[[45.0, 0.0], [50.0, 1.0]]", "class": 1, "number": 50.0}
+{"input": "The system shall sustain **200 simultaneous video therapy sessions** at 720p resolution.  ", "output": "[[180.0, 0.0], [200.0, 1.0]]", "class": 1, "number": 200.0}
+{"input": "Client-side memory usage shall not exceed **150MB** during standard cognitive tests.  ", "output": "[[150.0, 1.0], [165.0, 0.0]]", "class": 2, "number": 150.0}
+{"input": "The mobile app shall consume **≤5% CPU** while running background mood logs.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "Server-side processing of behavioral data shall utilize **≤70% RAM** under full load.  ", "output": "[[70.0, 1.0], [77.0, 0.0]]", "class": 2, "number": 70.0}
+{"input": "Data synchronization between devices must complete within **30 seconds**.  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "The system shall maintain **<1% packet loss** during real-time biofeedback sessions.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The system shall store and retrieve psychological assessment results in **≤100ms** from the database.  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "AI-based emotion recognition models shall process facial expressions in **≤200ms per frame**.  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "Automated report generation shall complete within **10 seconds** for standard patient summaries.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "The database shall index and query patient records at a rate of **1,000 records per second**.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "Backup operations for clinical data shall complete within **30 minutes** for datasets up to **50GB**.  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "The system shall maintain **99.9% uptime** excluding scheduled maintenance.  ", "output": "[[89.91, 0.0], [99.9, 1.0]]", "class": 1, "number": 99.9}
+{"input": "Login failures due to system errors shall not exceed **0.1%** of total attempts.  ", "output": "[[0.1, 1.0], [0.11, 0.0]]", "class": 2, "number": 0.1}
+{"input": "Session timeouts shall occur only after **30 minutes of inactivity**, with no false triggers.  ", "output": "[[27.0, 0.0], [30.0, 1.0]]", "class": 1, "number": 30.0}
+{"input": "The system shall recover from a crash and restore service within **2 minutes**.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "Data loss shall not exceed **1 record per 100,000 transactions** due to system failures.  ", "output": "[[1e-05, 1.0], [2e-05, 0.0]]", "class": 2, "number": 1e-05}
+{"input": "The system shall scale horizontally to handle **10x baseline traffic** during peak demand.  ", "output": "[[9.0, 0.0], [10.0, 1.0]]", "class": 1, "number": 10.0}
+{"input": "API response times shall not degrade beyond **2 seconds** under **5,000 requests per minute**.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "The video conferencing module shall dynamically adjust bitrate to maintain **≤5% frame drops** under network congestion.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The system shall support **500 new user registrations per minute** without downtime.  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "Batch processing of EEG data shall scale linearly up to **1TB of input per day**.", "output": "[[0.9, 0.0], [1.0, 1.0]]", "class": 1, "number": 1.0}
+{"input": "Click-to-response delay in interactive therapy exercises shall be **≤150ms**.  ", "output": "[[150.0, 1.0], [165.0, 0.0]]", "class": 2, "number": 150.0}
+{"input": "The UI shall render animations at a smooth **60 FPS** on mid-range devices.  ", "output": "[[54.0, 0.0], [60.0, 1.0]]", "class": 1, "number": 60.0}
+{"input": "Voice-based therapy bot responses shall have a latency of **≤800ms** per utterance.  ", "output": "[[800.0, 1.0], [880.0, 0.0]]", "class": 2, "number": 800.0}
+{"input": "The mobile app shall launch from cold start in **≤1.5 seconds** on average.  ", "output": "[[1.5, 1.0], [1.65, 0.0]]", "class": 2, "number": 1.5}
+{"input": "Accessibility features (e.g., screen readers) shall activate within **500ms** of user request.  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "Encryption/decryption of patient data shall introduce **≤50ms overhead** per transaction.  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "Brute-force attack detection shall trigger mitigation in **≤200ms** of suspicious activity.  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "Audit log generation shall not delay system operations by more than **100ms** per entry.  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "Role-based access control checks shall resolve in **≤20ms** per permission request.  ", "output": "[[20.0, 1.0], [22.0, 0.0]]", "class": 2, "number": 20.0}
+{"input": "Secure session tokens shall refresh without perceptible lag (**≤300ms**).  ", "output": "[[300.0, 1.0], [330.0, 0.0]]", "class": 2, "number": 300.0}
+{"input": "EEG data streams shall be processed with a maximum end-to-end latency of **250ms**.  ", "output": "[[250.0, 1.0], [275.0, 0.0]]", "class": 2, "number": 250.0}
+{"input": "Real-time stress-level alerts shall trigger within **1 second** of threshold detection.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The system shall maintain **≤20ms jitter** in audio streams during teletherapy sessions.  ", "output": "[[20.0, 1.0], [22.0, 0.0]]", "class": 2, "number": 20.0}
+{"input": "Multi-user collaborative whiteboards shall synchronize strokes in **≤150ms**.  ", "output": "[[150.0, 1.0], [165.0, 0.0]]", "class": 2, "number": 150.0}
+{"input": "Live sentiment analysis of text chats shall update results every **500ms**.  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "Aggregation of weekly patient progress reports shall complete in **≤5 minutes**.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "Machine learning model retraining shall finish within **4 hours** for datasets up to **10GB**.  ", "output": "[[4.0, 1.0], [4.4, 0.0]]", "class": 2, "number": 4.0}
+{"input": "Statistical analysis of longitudinal study data shall process **1M data points in ≤30 minutes**.  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "Automated email notifications for appointments shall be sent within **1 minute** of scheduling.  ", "output": "[[60.0, 1.0], [66.0, 0.0]]", "class": 2, "number": 60.0}
+{"input": "Data anonymization for research exports shall process **100 records per second**.  ", "output": "[[90.0, 0.0], [100.0, 1.0]]", "class": 1, "number": 100.0}
+{"input": "**The system shall process genomic sequence alignments at a rate of at least 1,000 sequences per second.**  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "**Protein structure prediction shall complete within 30 minutes for sequences up to 500 amino acids.**  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "**The software must render 3D molecular models at 60 frames per second with no lag.**  ", "output": "[[54.0, 0.0], [60.0, 1.0]]", "class": 1, "number": 60.0}
+{"input": "**Database queries for gene annotations shall return results in under 200 milliseconds.**  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "**Real-time PCR data analysis must be performed within 5 seconds of data acquisition.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**The system shall support concurrent access by at least 100 users without degradation in response time.**  ", "output": "[[90.0, 0.0], [100.0, 1.0]]", "class": 1, "number": 100.0}
+{"input": "**Bulk sequence comparisons shall process 1 million entries in less than 10 minutes.**  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "**Automated cell counting from microscope images shall complete in under 1 second per image.**  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**The software shall sustain a data ingestion rate of 100 MB/s from high-throughput sequencing devices.**  ", "output": "[[90.0, 0.0], [100.0, 1.0]]", "class": 1, "number": 100.0}
+{"input": "**Network latency between distributed bioinformatics modules shall not exceed 50 ms.**  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "**The system shall index and retrieve biological datasets of up to 10 TB with a search latency of under 500 ms.**  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "**Multi-sequence alignment computations shall scale linearly with CPU cores up to 64 cores.**  ", "output": "[[57.6, 0.9], [64.0, 1.0]]", "class": 1, "number": 64.0}
+{"input": "**The software must maintain a memory footprint below 4 GB during typical phylogenetic tree computations.**  ", "output": "[[4.0, 1.0], [4.4, 0.0]]", "class": 2, "number": 4.0}
+{"input": "**Batch processing of RNA-seq data shall handle 100 samples in under 2 hours.**  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "**The interface shall update real-time sensor data from laboratory equipment with a refresh rate of at least 10 Hz.**  ", "output": "[[9.0, 0.0], [10.0, 1.0]]", "class": 1, "number": 10.0}
+{"input": "**The system shall recover from a crash and restore previous session data within 30 seconds.**  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "**Parallel BLAST searches shall return results for 1,000 queries in under 5 minutes.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**The software shall support exporting large datasets (10 GB) in under 3 minutes.**  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "**Dynamic visualization of metabolic pathways shall load in under 1 second for networks with 500 nodes.**  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**Data synchronization between cloud and local instances shall complete within 5 minutes for 1 GB datasets.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**The system shall detect and classify cell types in microscopy images with 95% accuracy in under 500 ms per image.**  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "**The software must support at least 1,000 concurrent real-time data streams from laboratory instruments.**  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "**Automated DNA sequence assembly shall complete in under 15 minutes for reads up to 1 Gb.**  ", "output": "[[15.0, 1.0], [16.5, 0.0]]", "class": 2, "number": 15.0}
+{"input": "**The system shall maintain a throughput of at least 500 transactions per second when recording experimental metadata.**  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "**The software shall execute Monte Carlo simulations for protein folding at 10,000 iterations per second.**  ", "output": "[[9000.0, 0.0], [10000.0, 1.0]]", "class": 1, "number": 10000.0}
+{"input": "**Batch processing of microarray data shall complete in under 20 minutes for 50 samples.**  ", "output": "[[20.0, 1.0], [22.0, 0.0]]", "class": 2, "number": 20.0}
+{"input": "**The system shall compress and archive raw sequencing data at a rate of 200 MB/s.**  ", "output": "[[180.0, 0.0], [200.0, 1.0]]", "class": 1, "number": 200.0}
+{"input": "**The interface shall respond to user inputs within 100 ms during interactive genome browsing.**  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "**The software must support federated queries across distributed databases with a latency of under 1 second.**  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**Automated taxonomic classification of microbiome samples shall complete in under 2 minutes per sample.**  ", "output": "[[120.0, 1.0], [132.0, 0.0]]", "class": 2, "number": 120.0}
+{"input": "**The system shall generate phylogenetic trees from 1,000 sequences in under 10 minutes.**  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "**The software shall maintain a disk I/O throughput of at least 300 MB/s during large dataset processing.**  ", "output": "[[270.0, 0.0], [300.0, 1.0]]", "class": 1, "number": 300.0}
+{"input": "**Real-time monitoring of bioreactor parameters shall update every 100 ms without delay.**  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "**The system shall process and analyze flow cytometry data for 100,000 cells in under 5 seconds.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**The software must support at least 50 simultaneous remote desktop sessions for collaborative analysis.**  ", "output": "[[45.0, 0.0], [50.0, 1.0]]", "class": 1, "number": 50.0}
+{"input": "**Automated variant calling from NGS data shall complete in under 1 hour per 30x human genome.**  ", "output": "[[60.0, 1.0], [66.0, 0.0]]", "class": 2, "number": 60.0}
+{"input": "**The system shall sustain a write speed of 150 MB/s when logging high-frequency sensor data.**  ", "output": "[[135.0, 0.0], [150.0, 1.0]]", "class": 1, "number": 150.0}
+{"input": "**Interactive visualization of single-cell RNA-seq data shall render clusters in under 2 seconds.**  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "**The software shall complete differential gene expression analysis for 10,000 genes in under 5 minutes.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**The system shall support real-time annotation updates with a propagation delay of under 500 ms.**  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "**Automated image segmentation in histopathology slides shall process 1 cm² regions in under 10 seconds.**  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "**The software must index new genomic datasets at a rate of 1 GB per minute.**  ", "output": "[[0.9, 0.0], [1.0, 1.0]]", "class": 1, "number": 1.0}
+{"input": "**The system shall execute machine learning model inference for drug discovery in under 200 ms per compound.**  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "**Batch alignment of metagenomic reads shall complete in under 30 minutes for 10 million reads.**  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "**The software shall maintain a 99.9% uptime during continuous laboratory automation runs.**  ", "output": "[[89.91, 0.0], [99.9, 1.0]]", "class": 1, "number": 99.9}
+{"input": "**The system shall support real-time collaboration with a data sync latency of under 300 ms.**  ", "output": "[[300.0, 1.0], [330.0, 0.0]]", "class": 2, "number": 300.0}
+{"input": "**Automated quality control checks for sequencing runs shall complete in under 3 minutes.**  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "**The software must validate and correct experimental metadata entries in under 100 ms per record.**  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "**The system shall execute CRISPR guide RNA design computations in under 1 minute per target.**  ", "output": "[[60.0, 1.0], [66.0, 0.0]]", "class": 2, "number": 60.0}
+{"input": "**The software shall load and display large-scale genomic interaction maps (1M interactions) in under 5 seconds.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The system shall process ECG data with a latency of no more than **200 milliseconds** per reading.  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "Real-time arrhythmia detection shall achieve an accuracy of **≥ 99%** under normal load conditions.  ", "output": "[[89.1, 0.0], [99.0, 1.0]]", "class": 1, "number": 99.0}
+{"input": "The system must support concurrent access by **at least 100 users** without degradation in response time.  ", "output": "[[90.0, 0.0], [100.0, 1.0]]", "class": 1, "number": 100.0}
+{"input": "Patient record retrieval shall complete within **1 second** for 95% of queries.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "Automated diagnosis suggestions shall be generated within **500 milliseconds** of data input.  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "The system shall maintain a data synchronization delay of **≤ 50 milliseconds** across distributed servers.  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "Continuous vital sign monitoring shall update dashboards with a refresh rate of **≥ 10 Hz**.  ", "output": "[[9.0, 0.0], [10.0, 1.0]]", "class": 1, "number": 10.0}
+{"input": "Bulk import of patient histories shall process **10,000 records in under 5 minutes**.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The system shall handle **≥ 1,000 simultaneous telemetry streams** without packet loss.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "Image rendering for echocardiograms shall complete within **2 seconds** at full resolution.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "Critical alerts (e.g., STEMI detection) shall trigger notifications within **100 milliseconds** of detection.  ", "output": "[[90.0, 0.0], [100.0, 1.0]]", "class": 1, "number": 100.0}
+{"input": "The API shall sustain a throughput of **≥ 500 requests per second** under peak load.  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "Database backups shall complete within **15 minutes** for a 1 TB dataset.  ", "output": "[[15.0, 1.0], [16.5, 0.0]]", "class": 2, "number": 15.0}
+{"input": "Automated report generation for patient summaries shall take **≤ 30 seconds**.  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "The system shall recover from a failure with a restart time of **≤ 1 minute**.  ", "output": "[[60.0, 1.0], [66.0, 0.0]]", "class": 2, "number": 60.0}
+{"input": "High-priority diagnostic tasks shall be prioritized with a scheduling delay of **≤ 10 milliseconds**.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "Multi-lead ECG analysis shall complete in **≤ 300 milliseconds** per 10-second strip.  ", "output": "[[300.0, 1.0], [330.0, 0.0]]", "class": 2, "number": 300.0}
+{"input": "The system shall maintain a **99.99% uptime** during normal operations.  ", "output": "[[98.99, 0.0], [99.99, 1.0]]", "class": 1, "number": 99.99}
+{"input": "Data encryption/decryption for patient records shall introduce latency of **≤ 20 milliseconds**.  ", "output": "[[20.0, 1.0], [22.0, 0.0]]", "class": 2, "number": 20.0}
+{"input": "The UI shall render dynamic visualizations with a frame rate of **≥ 30 FPS**.  ", "output": "[[27.0, 0.0], [30.0, 1.0]]", "class": 1, "number": 30.0}
+{"input": "The system shall scale horizontally to support **≥ 10,000 concurrent patient monitors**.  ", "output": "[[9000.0, 0.0], [10000.0, 1.0]]", "class": 1, "number": 10000.0}
+{"input": "Authentication requests shall be processed within **200 milliseconds** (95th percentile).  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "Cloud-based storage retrieval shall have a mean response time of **≤ 400 milliseconds**.  ", "output": "[[400.0, 1.0], [440.0, 0.0]]", "class": 2, "number": 400.0}
+{"input": "The system shall log audit events with a write latency of **≤ 5 milliseconds**.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "AI-assisted diagnosis models shall infer results within **1 second** per case.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The application shall load fully interactive dashboards in **≤ 3 seconds** on standard networks.  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "Automated anomaly detection in Holter monitor data shall process **24-hour recordings in ≤ 5 minutes**.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The system shall handle **≥ 50,000 transactions per hour** in high-availability mode.  ", "output": "[[45000.0, 0.0], [50000.0, 1.0]]", "class": 1, "number": 50000.0}
+{"input": "Voice-to-text dictation for clinical notes shall transcribe with **≤ 500 milliseconds** delay.  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "The system shall auto-save progress every **10 seconds** without disrupting user workflow.  ", "output": "[[9.0, 0.0], [10.0, 1.0]]", "class": 1, "number": 10.0}
+{"input": "Cross-platform data synchronization shall resolve conflicts in **≤ 1 second**.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The system shall support **≥ 5,000 wearable device connections** simultaneously.  ", "output": "[[4500.0, 0.0], [5000.0, 1.0]]", "class": 1, "number": 5000.0}
+{"input": "Data compression for transmission shall reduce file sizes by **≥ 70%** without quality loss.  ", "output": "[[63.0, 0.0], [70.0, 1.0]]", "class": 1, "number": 70.0}
+{"input": "The system shall detect and correct data corruption with **≤ 10 ms** overhead per record.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "Predictive analytics models shall update in **≤ 15 minutes** with new training data.  ", "output": "[[15.0, 1.0], [16.5, 0.0]]", "class": 2, "number": 15.0}
+{"input": "The system shall execute batch processing jobs at a rate of **≥ 1,000 records/second**.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "Third-party API integrations shall respond within **≤ 800 milliseconds** (99th percentile).  ", "output": "[[800.0, 1.0], [880.0, 0.0]]", "class": 2, "number": 800.0}
+{"input": "The system shall support **≥ 500 concurrent video consultations** with ≤ 200 ms end-to-end latency.  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "The search function shall return relevant patient records in **≤ 500 milliseconds** (avg.).  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "The system shall maintain a memory footprint of **≤ 500 MB** during typical operation.  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "Automated billing calculations shall process **100 claims in ≤ 30 seconds**.  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "The system shall retain historical ECG data with a retrieval latency of **≤ 2 seconds** per year.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "The system shall support **≥ 200 simultaneous real-time waveform analyses**.  ", "output": "[[180.0, 0.0], [200.0, 1.0]]", "class": 1, "number": 200.0}
+{"input": "Data validation checks shall complete within **≤ 50 milliseconds** per entry.  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "The system shall ingest and normalize lab results at a rate of **≥ 200 results/second**.  ", "output": "[[180.0, 0.0], [200.0, 1.0]]", "class": 1, "number": 200.0}
+{"input": "The mobile app shall sync offline data in **≤ 1 minute** upon reconnection.  ", "output": "[[60.0, 1.0], [66.0, 0.0]]", "class": 2, "number": 60.0}
+{"input": "The system shall detect duplicate patient records with **≥ 98% accuracy**.  ", "output": "[[0.98, 1.0], [1.0, 0.0]]", "class": 2, "number": 0.98}
+{"input": "The system shall support **≥ 1,000 RPM (requests per minute)** for REST APIs.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "The system shall auto-adjust workload distribution with **≤ 5% performance variance**.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The system shall complete a full security scan in **≤ 10 minutes** for 1 TB of data.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "The system shall process at least **10,000 DNS queries per second**.  ", "output": "[[9000.0, 0.0], [10000.0, 1.0]]", "class": 1, "number": 10000.0}
+{"input": "The system shall maintain **latency below 50 ms** for HTTP requests under 80% load.  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "The system shall support a minimum of **5,000 concurrent TCP connections**.  ", "output": "[[4500.0, 0.0], [5000.0, 1.0]]", "class": 1, "number": 5000.0}
+{"input": "The system shall achieve **packet loss rates below 0.1%** during peak traffic.  ", "output": "[[0.1, 1.0], [0.11, 0.0]]", "class": 2, "number": 0.1}
+{"input": "The system shall handle **1 Gbps throughput** on a single network interface.  ", "output": "[[900000000.0, 0.0], [1000000000.0, 1.0]]", "class": 1, "number": 1000000000.0}
+{"input": "The system shall respond to ICMP ping requests within **10 ms** under normal conditions.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "The system shall recover from a network failure in **under 200 ms**.  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "The system shall encrypt data with **AES-256 at a rate of 500 Mbps**.  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "The system shall sustain a **95% cache hit ratio** for frequently accessed content.  ", "output": "[[85.5, 0.0], [95.0, 1.0]]", "class": 1, "number": 95.0}
+{"input": "The system shall process **100,000 packets per second** without dropping any.  ", "output": "[[90000.0, 0.0], [100000.0, 1.0]]", "class": 1, "number": 100000.0}
+{"input": "The system shall maintain **jitter below 5 ms** for real-time voice traffic.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The system shall support **10,000 active VPN tunnels** simultaneously.  ", "output": "[[9000.0, 0.0], [10000.0, 1.0]]", "class": 1, "number": 10000.0}
+{"input": "The system shall complete **TCP handshakes within 20 ms**.  ", "output": "[[18.0, 0.0], [20.0, 1.0]]", "class": 1, "number": 20.0}
+{"input": "The system shall sustain **50,000 new connections per minute**.  ", "output": "[[45000.0, 0.0], [50000.0, 1.0]]", "class": 1, "number": 50000.0}
+{"input": "The system shall limit **CPU utilization to 70%** under maximum load.  ", "output": "[[70.0, 1.0], [77.0, 0.0]]", "class": 2, "number": 70.0}
+{"input": "The system shall forward **Layer 2 frames at 500,000 frames per second**.  ", "output": "[[450000.0, 0.0], [500000.0, 1.0]]", "class": 1, "number": 500000.0}
+{"input": "The system shall detect and mitigate a DDoS attack within **30 seconds**.  ", "output": "[[27.0, 0.0], [30.0, 1.0]]", "class": 1, "number": 30.0}
+{"input": "The system shall maintain **99.99% availability** over a one-year period.  ", "output": "[[99.989, 0.0], [99.99, 1.0]]", "class": 1, "number": 99.99}
+{"input": "The system shall process **100 Mbps of encrypted TLS traffic** without bottlenecking.  ", "output": "[[90.0, 0.0], [100.0, 1.0]]", "class": 1, "number": 100.0}
+{"input": "The system shall ensure **routing table convergence within 5 seconds** after a topology change.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The system shall support **1 million concurrent WebSocket connections**.  ", "output": "[[900000.0, 0.0], [1000000.0, 1.0]]", "class": 1, "number": 1000000.0}
+{"input": "The system shall limit **memory usage to 2 GB** under normal operation.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "The system shall achieve **sub-1-second failover** for redundant network paths.  ", "output": "[[0.9, 0.0], [1.0, 1.0]]", "class": 1, "number": 1.0}
+{"input": "The system shall process **10,000 syslog messages per second**.  ", "output": "[[9000.0, 0.0], [10000.0, 1.0]]", "class": 1, "number": 10000.0}
+{"input": "The system shall maintain **throughput above 800 Mbps** under 90% load.  ", "output": "[[720.0, 0.0], [800.0, 1.0]]", "class": 1, "number": 800.0}
+{"input": "The system shall ensure **BGP route updates propagate within 3 seconds**.  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "The system shall sustain **500 RPS (requests per second)** for REST API calls.  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "The system shall limit **NAT translation latency to 5 ms** per packet.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The system shall handle **50,000 ARP requests per second**.  ", "output": "[[45000.0, 0.0], [50000.0, 1.0]]", "class": 1, "number": 50000.0}
+{"input": "The system shall ensure **packet reordering does not exceed 0.01%**.  ", "output": "[[0.01, 1.0], [0.011, 0.0]]", "class": 2, "number": 0.01}
+{"input": "The system shall complete **TLS handshakes in under 100 ms**.  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "The system shall support **10 Gbps line-rate traffic** on all interfaces.  ", "output": "[[9.0, 0.0], [10.0, 1.0]]", "class": 1, "number": 10.0}
+{"input": "The system shall maintain **99.9% packet delivery success** in congested networks.  ", "output": "[[89.91, 0.0], [99.9, 1.0]]", "class": 1, "number": 99.9}
+{"input": "The system shall process **100,000 firewall rules** without performance degradation.  ", "output": "[[90000.0, 0.0], [100000.0, 1.0]]", "class": 1, "number": 100000.0}
+{"input": "The system shall achieve **sub-10-μs latency** for high-frequency trading traffic.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "The system shall scale horizontally to handle **1 million concurrent users**.  ", "output": "[[900000.0, 0.0], [1000000.0, 1.0]]", "class": 1, "number": 1000000.0}
+{"input": "The system shall limit **ICMP response time variation to ±2 ms**.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "The system shall sustain **100,000 IOPS (input/output operations per second)** for storage traffic.  ", "output": "[[90000.0, 0.0], [100000.0, 1.0]]", "class": 1, "number": 100000.0}
+{"input": "The system shall support **100 VLANs** without throughput degradation.  ", "output": "[[90.0, 0.0], [100.0, 1.0]]", "class": 1, "number": 100.0}
+{"input": "The system shall complete **OSPF SPF calculations in under 1 second**.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The system shall maintain **99.95% SLA compliance** for uptime.  ", "output": "[[89.955, 0.0], [99.95, 1.0]]", "class": 1, "number": 99.95}
+{"input": "The system shall process **1,000 multicast streams** simultaneously.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "The system shall ensure **DHCP lease assignment in under 50 ms**.  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "The system shall limit **TCP retransmission rate to below 0.5%**.  ", "output": "[[0.5, 1.0], [0.55, 0.0]]", "class": 2, "number": 0.5}
+{"input": "The system shall support **40 Gbps traffic aggregation** in distributed deployments.  ", "output": "[[36.0, 0.0], [40.0, 1.0]]", "class": 1, "number": 40.0}
+{"input": "The system shall maintain **sub-100-ms latency** for geo-distributed applications.  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "The system shall handle **1,000 QoS policy updates per second**.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "The system shall ensure **MPLS label switching within 5 μs**.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The system shall sustain **99.9% packet-forwarding accuracy** under stress.  ", "output": "[[89.91, 0.0], [99.9, 1.0]]", "class": 1, "number": 99.9}
+{"input": "The system shall process **10,000 NetFlow records per second** for monitoring.  ", "output": "[[9000.0, 0.0], [10000.0, 1.0]]", "class": 1, "number": 10000.0}
+{"input": "The system shall detect faces in images with a latency of no more than **200 ms** per frame.  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "Eye-tracking data processing must maintain an accuracy of **≥ 95%** under varying lighting conditions.  ", "output": "[[85.5, 0.0], [95.0, 1.0]]", "class": 1, "number": 95.0}
+{"input": "The software shall classify emotional expressions from video feeds at a rate of **30 FPS**.  ", "output": "[[27.0, 0.0], [30.0, 1.0]]", "class": 1, "number": 30.0}
+{"input": "Response time for real-time gaze estimation shall not exceed **150 ms**.  ", "output": "[[150.0, 1.0], [165.0, 0.0]]", "class": 2, "number": 150.0}
+{"input": "The system must process EEG signals with a sampling rate of **≥ 500 Hz**.  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "Object recognition in controlled lab environments shall achieve **≥ 98% precision**.  ", "output": "[[88.2, 0.0], [98.0, 1.0]]", "class": 1, "number": 98.0}
+{"input": "The software shall support concurrent processing of **≥ 10 video streams** without frame drops.  ", "output": "[[9.0, 0.0], [10.0, 1.0]]", "class": 1, "number": 10.0}
+{"input": "Pupil dilation measurements must have a temporal resolution of **≤ 10 ms**.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "The system shall stabilize head movement in video recordings with a drift error of **< 1 pixel**.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "Facial landmark detection must operate with a mean error of **≤ 3 pixels**.  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "The software shall synchronize multimodal data (video, audio, EEG) with a jitter of **≤ 5 ms**.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "Real-time hand gesture recognition must achieve **≥ 90% recall** under occlusion.  ", "output": "[[81.0, 0.0], [90.0, 1.0]]", "class": 1, "number": 90.0}
+{"input": "The system shall load and render high-resolution stimuli (4K) within **500 ms**.  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "Gaze prediction models must update predictions at a minimum rate of **60 Hz**.  ", "output": "[[54.0, 0.0], [60.0, 1.0]]", "class": 1, "number": 60.0}
+{"input": "The software shall maintain **≤ 2% frame loss** during continuous video recording.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "Reaction time measurements must have a precision of **±1 ms**.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The system shall process and store **≥ 1 TB of behavioral data** per experiment session.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "The software shall support **≥ 50 simultaneous participants** in a distributed eye-tracking study.  ", "output": "[[45.0, 0.0], [50.0, 1.0]]", "class": 1, "number": 50.0}
+{"input": "Neural network inference for scene segmentation must complete within **300 ms** per frame.  ", "output": "[[300.0, 1.0], [330.0, 0.0]]", "class": 2, "number": 300.0}
+{"input": "The system shall ensure **≤ 5% false positives** in motion artifact detection.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The software shall calibrate eye-tracking systems with an error margin of **≤ 0.5° visual angle**.  ", "output": "[[0.5, 1.0], [0.55, 0.0]]", "class": 2, "number": 0.5}
+{"input": "Real-time emotion classification must sustain **≥ 25 FPS** on embedded devices.  ", "output": "[[22.5, 0.0], [25.0, 1.0]]", "class": 1, "number": 25.0}
+{"input": "The system shall filter noise from EEG signals with a delay of **≤ 20 ms**.  ", "output": "[[20.0, 1.0], [22.0, 0.0]]", "class": 2, "number": 20.0}
+{"input": "The software must log participant interactions with a timestamp accuracy of **±2 ms**.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "The system shall recognize micro-expressions with a sensitivity of **≥ 85%**.  ", "output": "[[76.5, 0.0], [85.0, 1.0]]", "class": 1, "number": 85.0}
+{"input": "Depth perception algorithms must resolve disparities with an error of **≤ 1 cm** at 2m distance.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The software shall replay recorded experimental sessions with **≤ 10 ms** playback desynchronization.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "The system shall support **≥ 1000 concurrent data streams** in large-scale behavioral studies.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "Image preprocessing (denoising, contrast adjustment) must complete within **100 ms** per frame.  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "The software shall maintain a data throughput of **≥ 500 MB/s** for real-time logging.  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "The system shall detect saccades with a temporal precision of **±5 ms**.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The software must render dynamic visual stimuli with a refresh rate of **≥ 120 Hz**.  ", "output": "[[108.0, 0.0], [120.0, 1.0]]", "class": 1, "number": 120.0}
+{"input": "The system shall support **≤ 5% packet loss** in wireless EEG data transmission.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "Gaze heatmap generation must process **≥ 1000 fixations per second**.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "The software shall recover from sensor disconnections within **≤ 200 ms**.  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "The system shall track body posture with a joint localization error of **≤ 10 mm**.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "The software must ensure **≤ 1% deviation** in time-aligned multimodal datasets.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The system shall process and classify fMRI data with a delay of **≤ 2 seconds**.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "The software shall support **≥ 8K resolution** for high-fidelity stimulus presentation.  ", "output": "[[7200.0, 0.0], [8000.0, 1.0]]", "class": 1, "number": 8000.0}
+{"input": "The system shall detect blinks with a false-negative rate of **≤ 2%**.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "The software must apply real-time filters to EMG signals with a latency of **≤ 15 ms**.  ", "output": "[[15.0, 1.0], [16.5, 0.0]]", "class": 2, "number": 15.0}
+{"input": "The system shall recognize handwritten digits with **≥ 99% accuracy** in behavioral tasks.  ", "output": "[[89.1, 0.0], [99.0, 1.0]]", "class": 1, "number": 99.0}
+{"input": "The software shall compress and store video recordings at **≥ 5:1 ratio** without quality loss.  ", "output": "[[4.5, 0.0], [5.0, 1.0]]", "class": 1, "number": 5.0}
+{"input": "The system shall sustain **≥ 99.9% uptime** during longitudinal experiments.  ", "output": "[[89.91, 0.0], [99.9, 1.0]]", "class": 1, "number": 99.9}
+{"input": "The software must resolve conflicting gaze data with a consensus threshold of **≥ 75%**.  ", "output": "[[67.5, 0.0], [75.0, 1.0]]", "class": 1, "number": 75.0}
+{"input": "The system shall detect anomalies in behavioral data with a recall of **≥ 90%**.  ", "output": "[[81.0, 0.0], [90.0, 1.0]]", "class": 1, "number": 90.0}
+{"input": "The software shall support **≤ 10 ms end-to-end latency** in VR-based experiments.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "The system shall recognize **≥ 20 distinct facial action units** in real time.  ", "output": "[[18.0, 0.0], [20.0, 1.0]]", "class": 1, "number": 20.0}
+{"input": "The software must align timestamps across distributed nodes with **≤ 1 ms skew**.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The system shall calibrate motion tracking sensors within **≤ 3 iterations** per session.  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "**Frame Processing Rate:** The system must process at least 30 frames per second (FPS) for real-time video analysis.  ", "output": "[[27.0, 0.0], [30.0, 1.0]]", "class": 1, "number": 30.0}
+{"input": "**Latency:** The end-to-end processing delay for a single image must not exceed 100 milliseconds.  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "**Memory Usage:** The peak memory consumption during object detection must remain under 2 GB.  ", "output": "[[2000.0, 1.0], [2200.0, 0.0]]", "class": 2, "number": 2000.0}
+{"input": "**Accuracy:** The face recognition model must achieve at least 98% precision at a recall of 95%.  ", "output": "[[93.1, 0.0], [98.0, 1.0]]", "class": 1, "number": 98.0}
+{"input": "**GPU Utilization:** The system must maintain GPU utilization above 80% during inference.  ", "output": "[[72.0, 0.0], [80.0, 1.0]]", "class": 1, "number": 80.0}
+{"input": "**Power Consumption:** The software must not exceed 15 watts of power consumption during continuous operation.  ", "output": "[[15.0, 1.0], [16.5, 0.0]]", "class": 2, "number": 15.0}
+{"input": "**Detection Speed:** The system must detect objects in a 1080p image within 50 milliseconds.  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "**Scalability:** The system must support concurrent processing of at least 10 video streams without performance degradation.  ", "output": "[[9.0, 0.0], [10.0, 1.0]]", "class": 1, "number": 10.0}
+{"input": "**Model Size:** The deployed deep learning model must not exceed 50 MB in size.  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "**False Positive Rate:** The pedestrian detection system must maintain a false positive rate below 1%.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**Inference Throughput:** The system must process at least 200 images per second in batch mode.  ", "output": "[[180.0, 0.0], [200.0, 1.0]]", "class": 1, "number": 200.0}
+{"input": "**CPU Load:** The software should not exceed 70% CPU usage when running on a quad-core processor.  ", "output": "[[70.0, 1.0], [77.0, 0.0]]", "class": 2, "number": 70.0}
+{"input": "**Initialization Time:** The system must initialize and load all models within 3 seconds.  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "**Bandwidth Usage:** The live video streaming module must not consume more than 5 Mbps per stream.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**Jitter:** The frame-to-frame processing time variance must be less than 10 milliseconds.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "**Model Training Time:** The system must train a classification model on 50,000 images in under 6 hours.  ", "output": "[[6.0, 1.0], [6.6, 0.0]]", "class": 2, "number": 6.0}
+{"input": "**Edge Device Compatibility:** The inference pipeline must run at 10 FPS on a Raspberry Pi 4.  ", "output": "[[9.0, 0.0], [10.0, 1.0]]", "class": 1, "number": 10.0}
+{"input": "**False Negative Rate:** The defect detection system must have a false negative rate below 2%.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "**Multi-Object Tracking:** The system must track at least 50 objects simultaneously without dropping frames.  ", "output": "[[45.0, 0.0], [50.0, 1.0]]", "class": 1, "number": 50.0}
+{"input": "**Response Time:** The gesture recognition system must respond within 200 milliseconds of input.  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "**Model Pruning Efficiency:** The compressed model must retain at least 90% of the original model’s accuracy.  ", "output": "[[81.0, 0.0], [90.0, 1.0]]", "class": 1, "number": 90.0}
+{"input": "**Disk I/O:** The system must read and process image batches from disk in under 500 milliseconds per batch.  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "**Heat Dissipation:** The software must not cause the device temperature to exceed 70°C during prolonged use.  ", "output": "[[70.0, 1.0], [77.0, 0.0]]", "class": 2, "number": 70.0}
+{"input": "**Network Latency:** The cloud-based inference API must respond within 300 milliseconds over a stable connection.  ", "output": "[[300.0, 1.0], [330.0, 0.0]]", "class": 2, "number": 300.0}
+{"input": "**Model Update Time:** The system must deploy a new model version in under 30 seconds.  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "**Feature Extraction Speed:** The system must extract key features from an image in under 20 milliseconds.  ", "output": "[[20.0, 1.0], [22.0, 0.0]]", "class": 2, "number": 20.0}
+{"input": "**Model Robustness:** The object detection system must maintain >90% accuracy in low-light conditions.  ", "output": "[[81.0, 0.0], [90.0, 1.0]]", "class": 1, "number": 90.0}
+{"input": "**Input Resolution Support:** The system must process 4K images without crashing or excessive slowdown.  ", "output": "[[2880.0, 0.0], [3840.0, 1.0]]", "class": 1, "number": 3840.0}
+{"input": "**Real-time Feedback:** The system must provide feedback for AR overlays within 33 milliseconds.  ", "output": "[[33.0, 1.0], [36.3, 0.0]]", "class": 2, "number": 33.0}
+{"input": "**Model Convergence Time:** The training algorithm must reach 95% validation accuracy within 24 hours.  ", "output": "[[24.0, 1.0], [28.8, 0.0]]", "class": 2, "number": 24.0}
+{"input": "**Hardware Acceleration:** The system must utilize TensorRT to achieve at least 2x speedup over native inference.  ", "output": "[[1.8, 0.0], [2.0, 1.0]]", "class": 1, "number": 2.0}
+{"input": "**Image Preprocessing Time:** The system must normalize and resize an image in under 5 milliseconds.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**Resource Contention:** The system must maintain performance when running alongside other background processes.  ", "output": "[[0.0, 0.0], [100.0, 1.0]]", "class": 1, "number": 100.0}
+{"input": "**Model Quantization Loss:** The 8-bit quantized model must not lose more than 3% accuracy compared to FP32.  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "**Load Balancing:** The distributed system must evenly distribute workload across 4 GPUs with <10% imbalance.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "**Frame Drop Rate:** The real-time processing pipeline must drop fewer than 1 in 1,000 frames.  ", "output": "[[0.001, 1.0], [0.0011, 0.0]]", "class": 2, "number": 0.001}
+{"input": "**Autoscaling Time:** The cloud-based system must scale up to handle 5x load within 2 minutes.  ", "output": "[[120.0, 1.0], [132.0, 0.0]]", "class": 2, "number": 120.0}
+{"input": "**Data Augmentation Speed:** The training pipeline must generate augmented images at 1,000 samples per second.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "**OCR Speed:** The system must recognize text in a 1920x1080 image in under 100 milliseconds.  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "**Model Warm-up Time:** The first inference after startup must complete within 500 milliseconds.  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "**Multi-threading Efficiency:** The system must achieve a 4x speedup when using 8 CPU threads.  ", "output": "[[3.6, 0.0], [4.0, 1.0]]", "class": 1, "number": 4.0}
+{"input": "**Error Recovery Time:** The system must resume normal operation within 1 second after a crash.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**Video Buffering Delay:** The live video analysis must not introduce more than 200 milliseconds of buffering.  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "**Model Fine-tuning Speed:** The transfer learning process must complete in under 1 hour on 10,000 samples.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**Image Registration Time:** The system must align two 1MP images in under 50 milliseconds.  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "**Segmentation Accuracy:** The semantic segmentation model must achieve an IoU (Intersection over Union) of at least 85%.  ", "output": "[[76.5, 0.0], [85.0, 1.0]]", "class": 1, "number": 85.0}
+{"input": "**API Throughput:** The REST API must handle at least 50 requests per second with <10ms latency.  ", "output": "[[45.0, 0.0], [50.0, 1.0]]", "class": 1, "number": 50.0}
+{"input": "**Data Transfer Overhead:** The system must process remote images with <5% additional latency due to network transfer.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**Drift Detection Time:** The system must detect model performance degradation within 24 hours of occurrence.  ", "output": "[[24.0, 1.0], [26.4, 0.0]]", "class": 2, "number": 24.0}
+{"input": "**System response time for loading patient vitals must not exceed 2 seconds.**  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "**Alerts for abnormal lab results must be displayed within 1 second of data availability.**  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**The software must support concurrent access by at least 50 clinicians without degradation in response time.**  ", "output": "[[45.0, 0.0], [50.0, 1.0]]", "class": 1, "number": 50.0}
+{"input": "**Patient data synchronization between devices must complete within 500 milliseconds.**  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "**The system must process and store 1000+ vital sign readings per second without loss.**  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "**Real-time waveform rendering for ECG must update at a minimum of 30 frames per second.**  ", "output": "[[27.0, 0.0], [30.0, 1.0]]", "class": 1, "number": 30.0}
+{"input": "**Failed login attempts must be logged and processed in under 100 milliseconds.**  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "**The system must recover from a crash and restore full functionality within 60 seconds.**  ", "output": "[[60.0, 1.0], [66.0, 0.0]]", "class": 2, "number": 60.0}
+{"input": "**Medication dosage calculations must execute in less than 200 milliseconds.**  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "**Batch processing of overnight patient reports must complete within 10 minutes.**  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "**Database queries for retrieving patient history must resolve in under 3 seconds.**  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "**The system must handle 500+ simultaneous alarms without delay in prioritization.**  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "**Automated backup operations must complete within 5 minutes.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**User interface transitions between screens must take no longer than 1 second.**  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**The system must maintain ≤ 1% packet loss in real-time telemetry data transmission.**  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**Manual override of automated systems must execute within 500 milliseconds.**  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "**Trend analysis of 24-hour patient data must generate results in under 5 seconds.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**Audit logs must be written and confirmed within 50 milliseconds of an event.**  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "**The system must support at least 10,000 patient records without search latency exceeding 2 seconds.**  ", "output": "[[8000.0, 0.0], [10000.0, 1.0]]", "class": 1, "number": 10000.0}
+{"input": "**Voice command recognition must respond in ≤ 800 milliseconds.**  ", "output": "[[800.0, 1.0], [880.0, 0.0]]", "class": 2, "number": 800.0}
+{"input": "**Data export to external EMRs must complete within 2 minutes per patient record.**  ", "output": "[[120.0, 1.0], [132.0, 0.0]]", "class": 2, "number": 120.0}
+{"input": "**Multi-parameter monitoring must update displayed values at least once per second.**  ", "output": "[[0.9, 0.0], [1.0, 1.0]]", "class": 1, "number": 1.0}
+{"input": "**The system must detect and flag critical trends in patient status within 3 seconds.**  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "**User authentication must complete in under 1.5 seconds.**  ", "output": "[[1.5, 1.0], [1.65, 0.0]]", "class": 2, "number": 1.5}
+{"input": "**The software must maintain ≤ 99.9% uptime during a 30-day period.**  ", "output": "[[89.91, 0.0], [99.9, 1.0]]", "class": 1, "number": 99.9}
+{"input": "**Automated drug interaction checks must return results in ≤ 300 milliseconds.**  ", "output": "[[300.0, 1.0], [330.0, 0.0]]", "class": 2, "number": 300.0}
+{"input": "**Patient handoff summaries must generate in under 15 seconds.**  ", "output": "[[15.0, 1.0], [16.5, 0.0]]", "class": 2, "number": 15.0}
+{"input": "**The system must support at least 200 active monitoring sessions per server.**  ", "output": "[[180.0, 0.0], [200.0, 1.0]]", "class": 1, "number": 200.0}
+{"input": "**Historical data retrieval spanning a 30-day period must complete in ≤ 8 seconds.**  ", "output": "[[8.0, 1.0], [8.8, 0.0]]", "class": 2, "number": 8.0}
+{"input": "**Emergency mode activation must take no longer than 1 second.**  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**Software updates must install and restart services within 10 minutes.**  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "**The system must process HL7 messages at a rate of 500+ per minute.**  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "**Data compression for long-term storage must not exceed 5 seconds per 1GB of data.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**The application must restore the last active session within 3 seconds after a disconnect.**  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "**AI-driven diagnostic suggestions must be generated within 5 seconds.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**The system must detect and correct data corruption within 30 seconds.**  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "**Role-based access control checks must enforce permissions in ≤ 100 milliseconds.**  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "**The software must log all user actions with a timestamp accuracy of ±50 milliseconds.**  ", "output": "[[45.0, 0], [50.0, 1.0], [55.0, 0.0]]", "class": 3, "number": 50.0}
+{"input": "**Dynamic dashboard widgets must refresh in under 2 seconds.**  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "**The system must support at least 1,000 concurrent real-time data streams per node.**  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "**Data validation for entered vitals must complete in ≤ 200 milliseconds.**  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "**The software must auto-save clinician notes every 5 seconds without lag.**  ", "output": "[[4.5, 0.0], [5.0, 1.0], [5.5, 0.0]]", "class": 3, "number": 5.0}
+{"input": "**Redundant failover systems must activate within 2 seconds of primary failure.**  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "**The system must process and integrate third-party lab data within 1 second of receipt.**  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**Multi-language support must not increase interface load time by more than 500 milliseconds.**  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "**The system must retain and retrieve 5 years of patient records in ≤ 4 seconds.**  ", "output": "[[4.0, 1.0], [4.4, 0.0]]", "class": 2, "number": 4.0}
+{"input": "**Automated paging for code blue events must initiate within 1 second.**  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**The software must scale to support 500+ ICU beds without performance degradation.**  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "**Bluetooth medical device pairing must complete in under 3 seconds.**  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "**The system must generate printable reports for rounds within 20 seconds.**  ", "output": "[[20.0, 1.0], [22.0, 0.0]]", "class": 2, "number": 20.0}
+{"input": "The system shall process census data imports at a rate of at least **10,000 records per second**.  ", "output": "[[9000.0, 0.0], [10000.0, 1.0]]", "class": 1, "number": 10000.0}
+{"input": "Population projection calculations shall complete within **5 seconds** for datasets under 1 million records.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The system shall support concurrent access by **500 users** without degradation in response time.  ", "output": "[[450.0, 0.0], [500.0, 1.0]]", "class": 1, "number": 500.0}
+{"input": "Geospatial visualization rendering shall take no longer than **3 seconds** for regional-level data.  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "Age distribution reports shall generate in **under 2 seconds** for any administrative division.  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "The system shall handle **50 simultaneous real-time data streams** without latency exceeding 1 second.  ", "output": "[[45.0, 0.0], [50.0, 1.0]]", "class": 1, "number": 50.0}
+{"input": "API responses for demographic queries shall have a **99.9% uptime** during peak hours.  ", "output": "[[89.91, 0.0], [99.9, 1.0]]", "class": 1, "number": 99.9}
+{"input": "Data aggregation for national-level statistics shall complete within **10 minutes** of job submission.  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "The user interface shall load dashboard metrics in **less than 1.5 seconds** after login.  ", "output": "[[1.5, 1.0], [1.65, 0.0]]", "class": 2, "number": 1.5}
+{"input": "Historical migration trend analysis shall process **1 million data points in under 30 seconds**.  ", "output": "[[300000.0, 1.0], [330000.0, 0.0]]", "class": 2, "number": 300000.0}
+{"input": "The system shall sustain a **95% cache hit rate** for frequently accessed demographic indicators.  ", "output": "[[85.5, 0.0], [95.0, 1.0]]", "class": 1, "number": 95.0}
+{"input": "Batch processing of fertility rate computations shall scale linearly up to **10 million records per hour**.  ", "output": "[[9000000.0, 0.0], [10000000.0, 1.0]]", "class": 1, "number": 10000000.0}
+{"input": "Real-time population counters shall update with a maximum delay of **500 milliseconds**.  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "The system shall recover from a failure and restore service within **2 minutes**.  ", "output": "[[120.0, 1.0], [132.0, 0.0]]", "class": 2, "number": 120.0}
+{"input": "Data synchronization between distributed nodes shall complete within **15 seconds** for incremental updates.  ", "output": "[[15.0, 1.0], [16.5, 0.0]]", "class": 2, "number": 15.0}
+{"input": "The maximum memory usage during large-scale demographic modeling shall not exceed **16 GB**.  ", "output": "[[16.0, 1.0], [17.6, 0.0]]", "class": 2, "number": 16.0}
+{"input": "The system shall support **100 concurrent report exports** without queuing delays.  ", "output": "[[90.0, 0.0], [100.0, 1.0]]", "class": 1, "number": 100.0}
+{"input": "Database queries for household composition data shall return results in **under 200 milliseconds**.  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "The system shall ingest and validate external demographic feeds at **5,000 records per minute**.  ", "output": "[[4500.0, 0.0], [5000.0, 1.0]]", "class": 1, "number": 5000.0}
+{"input": "Automated alerts for demographic anomalies shall trigger within **1 second** of detection.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The system shall maintain a **99.5% success rate** for scheduled data processing jobs.  ", "output": "[[0.8955, 0.0], [0.995, 1.0]]", "class": 1, "number": 0.995}
+{"input": "CSV exports of demographic datasets shall complete within **30 seconds** for files up to 100 MB.  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "The system shall process **20 simultaneous complex queries** without exceeding 80% CPU utilization.  ", "output": "[[16.0, 0.0], [20.0, 1.0]]", "class": 1, "number": 20.0}
+{"input": "Geographic boundary overlays shall render in **less than 4 seconds** for high-resolution maps.  ", "output": "[[4.0, 1.0], [4.4, 0.0]]", "class": 2, "number": 4.0}
+{"input": "The system shall support **1,000 requests per second** during peak demographic survey periods.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "Data compression for archival storage shall achieve a **5:1 ratio** without loss of fidelity.  ", "output": "[[4.5, 0.0], [5.0, 1.0]]", "class": 1, "number": 5.0}
+{"input": "The system shall complete full backups of demographic repositories in **under 2 hours**.  ", "output": "[[120.0, 1.0], [132.0, 0.0]]", "class": 2, "number": 120.0}
+{"input": "Multi-year population trend simulations shall execute within **8 hours** for datasets under 10 GB.  ", "output": "[[8.0, 1.0], [8.8, 0.0]]", "class": 2, "number": 8.0}
+{"input": "The system shall maintain **sub-100ms latency** for read operations on indexed demographic tables.  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "Real-time dashboards shall refresh demographic indicators at intervals of **no more than 5 seconds**.  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "The system shall process **50 parallel data transformations** without exceeding memory limits.  ", "output": "[[45.0, 0.0], [50.0, 1.0]]", "class": 1, "number": 50.0}
+{"input": "Demographic data validation checks shall complete at a rate of **20,000 records per minute**.  ", "output": "[[18000.0, 0.0], [20000.0, 1.0]]", "class": 1, "number": 20000.0}
+{"input": "The system shall scale horizontally to accommodate **10 TB of demographic data** without performance loss.  ", "output": "[[9.0, 0.0], [10.0, 1.0]]", "class": 1, "number": 10.0}
+{"input": "User authentication for demographic portals shall take **less than 300 milliseconds**.  ", "output": "[[300.0, 1.0], [330.0, 0.0]]", "class": 2, "number": 300.0}
+{"input": "The system shall support **200 concurrent interactive map sessions** without lag.  ", "output": "[[180.0, 0.0], [200.0, 1.0]]", "class": 1, "number": 200.0}
+{"input": "Automated corrections to demographic outliers shall apply in **under 500 milliseconds** per record.  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "The system shall retain **99.99% data integrity** during large-scale demographic migrations.  ", "output": "[[89.991, 0.0], [99.99, 1.0]]", "class": 1, "number": 99.99}
+{"input": "Demographic API endpoints shall sustain **5,000 transactions per minute** under load.  ", "output": "[[4500.0, 0.0], [5000.0, 1.0]]", "class": 1, "number": 5000.0}
+{"input": "The system shall complete a full demographic data reconciliation in **under 1 hour** for medium-sized regions.  ", "output": "[[60.0, 1.0], [66.0, 0.0]]", "class": 2, "number": 60.0}
+{"input": "Interactive filtering of population pyramids shall respond in **under 1 second**.  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "The system shall process **10,000 demographic events per second** in streaming mode.  ", "output": "[[9000.0, 0.0], [10000.0, 1.0]]", "class": 1, "number": 10000.0}
+{"input": "Batch uploads of survey responses shall validate and store data at **2,000 records per second**.  ", "output": "[[1800.0, 0.0], [2000.0, 1.0]]", "class": 1, "number": 2000.0}
+{"input": "The system shall maintain **sub-50ms latency** for in-memory demographic cache retrievals.  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "Demographic model training shall complete within **6 hours** for datasets under 5 million entries.  ", "output": "[[6.0, 1.0], [6.6, 0.0]]", "class": 2, "number": 6.0}
+{"input": "The system shall support **50 concurrent administrative users** editing demographic metadata.  ", "output": "[[45.0, 0.0], [50.0, 1.0]]", "class": 1, "number": 50.0}
+{"input": "Data anonymization for privacy compliance shall process at **1,000 records per second**.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "The system shall recover from network interruptions and resume operations within **30 seconds**.  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "Demographic data fusion from multiple sources shall complete within **20 minutes** for national datasets.  ", "output": "[[20.0, 1.0], [22.0, 0.0]]", "class": 2, "number": 20.0}
+{"input": "The system shall handle **1,000 real-time demographic data subscriptions** without dropping messages.  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "The system shall maintain **99.95% availability** over a 365-day period.  ", "output": "[[89.955, 0.0], [99.95, 1.0]]", "class": 1, "number": 99.95}
+{"input": "**The system shall load high-resolution dermatology images in under 2 seconds.**  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "**The patient record search function shall return results within 1 second for datasets under 100,000 records.**  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**The telemedicine video consultation feature shall maintain a latency below 200ms.**  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "**Automated skin lesion analysis shall complete processing in no more than 5 seconds per image.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**The system shall support concurrent access by at least 50 dermatologists without performance degradation.**  ", "output": "[[45.0, 0.0], [50.0, 1.0]]", "class": 1, "number": 50.0}
+{"input": "**Data backups for patient records shall complete within 30 minutes for a 10GB dataset.**  ", "output": "[[30.0, 1.0], [33.0, 0.0]]", "class": 2, "number": 30.0}
+{"input": "**The mobile app shall synchronize offline records with the server in under 10 seconds upon reconnection.**  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "**Batch processing of 1,000 skin images for AI training shall complete within 2 hours.**  ", "output": "[[108.0, 1.0], [120.0, 0.0]]", "class": 2, "number": 108.0}
+{"input": "**The system shall recover from a crash in less than 60 seconds.**  ", "output": "[[60.0, 1.0], [66.0, 0.0]]", "class": 2, "number": 60.0}
+{"input": "**Database queries for dermatology reports shall execute in under 500ms.**  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "**The system shall handle 1,000 concurrent patient logins without exceeding 80% CPU utilization.**  ", "output": "[[800.0, 1.0], [880.0, 0.0]]", "class": 2, "number": 800.0}
+{"input": "**The AI-based diagnosis module shall achieve 95% accuracy in lesion classification.**  ", "output": "[[85.5, 0.0], [95.0, 1.0]]", "class": 1, "number": 95.0}
+{"input": "**Exporting a patient’s full medical history to PDF shall take no longer than 20 seconds.**  ", "output": "[[20.0, 1.0], [22.0, 0.0]]", "class": 2, "number": 20.0}
+{"input": "**The system shall process and store 100 dermoscopy images per minute.**  ", "output": "[[90.0, 0.0], [100.0, 1.0]]", "class": 1, "number": 100.0}
+{"input": "**Real-time collaboration between dermatologists shall have a message delivery delay below 300ms.**  ", "output": "[[300.0, 1.0], [330.0, 0.0]]", "class": 2, "number": 300.0}
+{"input": "**The system shall detect and block unauthorized access attempts in under 100ms.**  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "**Automated appointment scheduling shall confirm bookings within 3 seconds.**  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "**The EHR interface shall render patient dashboards in under 1.5 seconds.**  ", "output": "[[1.5, 1.0], [1.65, 0.0]]", "class": 2, "number": 1.5}
+{"input": "**The system shall support uploading 50MB dermatology images in under 15 seconds.**  ", "output": "[[15.0, 1.0], [16.5, 0.0]]", "class": 2, "number": 15.0}
+{"input": "**The AI model shall process and classify 1,000 skin images per hour.**  ", "output": "[[900.0, 0.0], [1000.0, 1.0]]", "class": 1, "number": 1000.0}
+{"input": "**The system shall generate dermatology reports with a maximum delay of 10 seconds.**  ", "output": "[[10.0, 1.0], [11.0, 0.0]]", "class": 2, "number": 10.0}
+{"input": "**The mobile app shall launch and display patient records in under 1.2 seconds.**  ", "output": "[[1.2, 1.0], [1.32, 0.0]]", "class": 2, "number": 1.2}
+{"input": "**The system shall maintain 99.9% uptime during business hours.**  ", "output": "[[89.91, 0.0], [99.9, 1.0]]", "class": 1, "number": 99.9}
+{"input": "**The database shall index and retrieve patient records in under 200ms.**  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "**The system shall encrypt and transmit patient data with a latency increase of no more than 50ms.**  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "**The AI-powered diagnostic tool shall provide differential diagnoses within 8 seconds.**  ", "output": "[[8.0, 1.0], [8.8, 0.0]]", "class": 2, "number": 8.0}
+{"input": "**The system shall scale to support 10,000 active users without response time exceeding 2 seconds.**  ", "output": "[[8000.0, 0.0], [10000.0, 1.0]]", "class": 1, "number": 10000.0}
+{"input": "**The dermatology imaging module shall support real-time zoom and pan with less than 100ms lag.**  ", "output": "[[100.0, 1.0], [110.0, 0.0]]", "class": 2, "number": 100.0}
+{"input": "**The system shall log and audit security events within 50ms of occurrence.**  ", "output": "[[50.0, 1.0], [55.0, 0.0]]", "class": 2, "number": 50.0}
+{"input": "**The patient portal shall load appointment history in under 800ms.**  ", "output": "[[800.0, 1.0], [880.0, 0.0]]", "class": 2, "number": 800.0}
+{"input": "**The system shall validate and process insurance claims in under 5 seconds.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**The AI model shall retrain on new datasets without exceeding 24 hours for 10,000 images.**  ", "output": "[[24.0, 1.0], [26.4, 0.0]]", "class": 2, "number": 24.0}
+{"input": "**The system shall allow dermatologists to annotate images with a tool response time below 150ms.**  ", "output": "[[150.0, 1.0], [165.0, 0.0]]", "class": 2, "number": 150.0}
+{"input": "**Automated reminders for follow-up visits shall be sent within 1 second of triggering.**  ", "output": "[[1.0, 1.0], [1.1, 0.0]]", "class": 2, "number": 1.0}
+{"input": "**The system shall support 4K-resolution dermatology video streaming with under 300ms buffering.**  ", "output": "[[300.0, 1.0], [330.0, 0.0]]", "class": 2, "number": 300.0}
+{"input": "**The patient registration form shall submit and save data in under 2 seconds.**  ", "output": "[[2.0, 1.0], [2.2, 0.0]]", "class": 2, "number": 2.0}
+{"input": "**The system shall synchronize EHR updates across devices in under 5 seconds.**  ", "output": "[[5.0, 1.0], [5.5, 0.0]]", "class": 2, "number": 5.0}
+{"input": "**The 3D skin modeling tool shall render changes in real-time with a delay below 200ms.**  ", "output": "[[200.0, 1.0], [220.0, 0.0]]", "class": 2, "number": 200.0}
+{"input": "**The system shall detect duplicate patient records in under 3 seconds.**  ", "output": "[[3.0, 1.0], [3.3, 0.0]]", "class": 2, "number": 3.0}
+{"input": "**The mobile app shall cache and display offline patient records in under 500ms.**  ", "output": "[[500.0, 1.0], [550.0, 0.0]]", "class": 2, "number": 500.0}
+{"input": "**The system shall process and store 10,000 dermatology records per hour.**  ", "output": "[[9000.0, 0.0], [10000.0, 1.0]]", "class": 1, "number": 10000.0}
+{"input": "The system supports exactly 1000 concurrent connections at any given time.", "output": "[[900.0, 0.0], [1000.0, 1.0], [1100.0, 0.0]]", "class": 3, "number": 1000.0}
+{"input": "Response time for the health-check API shall remain fixed at 200 milliseconds.", "output": "[[180.0, 0.0], [200.0, 1.0], [220.0, 0.0]]", "class": 3, "number": 200.0}
+{"input": "Audio sampling shall operate precisely at a frequency of 44100 Hz.", "output": "[[39690.0, 0.0], [44100.0, 1.0], [48510.0, 0.0]]", "class": 3, "number": 44100.0}
+{"input": "Video playback is expected to maintain a constant frame rate of 30 fps.", "output": "[[27.0, 0.0], [30.0, 1.0], [33.0, 0.0]]", "class": 3, "number": 30.0}
+{"input": "Each captured image must possess a resolution of 1920 by 1080 pixels.", "output": "[[1728.0, 0.0], [1920.0, 1.0], [2112.0, 0.0]]", "class": 3, "number": 1920.0}
+{"input": "Encryption mechanisms shall employ keys with a 256-bit length.", "output": "[[230.4, 0.0], [256.0, 1.0], [281.6, 0.0]]", "class": 3, "number": 256.0}
+{"input": "Database cache memory is configured to hold 512 megabytes of data.", "output": "[[460.8, 0.0], [512.0, 1.0], [563.2, 0.0]]", "class": 3, "number": 512.0}
+{"input": "A user session shall expire automatically after a continuous period of 1800 seconds.", "output": "[[1620.0, 0.0], [1800.0, 1.0], [1980.0, 0.0]]", "class": 3, "number": 1800.0}
+{"input": "The system shall allow a maximum of three retry attempts for failed requests.", "output": "[[2.7, 0.0], [3.0, 1.0], [3.3, 0.0]]", "class": 3, "number": 3.0}
+{"input": "Search indexes are required to refresh themselves every 600 seconds.", "output": "[[540.0, 0.0], [600.0, 1.0], [660.0, 0.0]]", "class": 3, "number": 600.0}
+{"input": "Backups must be retained in the system for exactly 365 calendar days.", "output": "[[328.5, 0.0], [365.0, 1.0], [401.5, 0.0]]", "class": 3, "number": 365.0}
+{"input": "Network throughput shall consistently reach 100 megabits per second.", "output": "[[90.0, 0.0], [100.0, 1.0], [110.0, 0.0]]", "class": 3, "number": 100.0}
+{"input": "Disk input/output operations shall achieve a steady rate of 5000 IOPS.", "output": "[[4500.0, 0.0], [5000.0, 1.0], [5500.0, 0.0]]", "class": 3, "number": 5000.0}
+{"input": "UI rendering shall complete in exactly 120 milliseconds per operation.", "output": "[[108.0, 0.0], [120.0, 1.0], [132.0, 0.0]]", "class": 3, "number": 120.0}
+{"input": "CPU utilization per instance shall maintain a stable level of 80 percent.", "output": "[[72.0, 0.0], [80.0, 1.0], [88.0, 0.0]]", "class": 3, "number": 80.0}
+{"input": "Each user password must include at least 12 characters in total.", "output": "[[10.8, 0.0], [12.0, 1.0], [13.2, 0.0]]", "class": 3, "number": 12.0}
+{"input": "Audit logs shall be stored securely for a retention period of 730 days.", "output": "[[657.0, 0.0], [730.0, 1.0], [803.0, 0.0]]", "class": 3, "number": 730.0}
+{"input": "Cache duration is fixed to a lifetime of precisely 300 seconds.", "output": "[[270.0, 0.0], [300.0, 1.0], [330.0, 0.0]]", "class": 3, "number": 300.0}
+{"input": "Each individual user may perform 100 API calls per minute.", "output": "[[90.0, 0.0], [100.0, 1.0], [110.0, 0.0]]", "class": 3, "number": 100.0}
+{"input": "The connection pool of the database shall include 50 active connections.", "output": "[[45.0, 0.0], [50.0, 1.0], [55.0, 0.0]]", "class": 3, "number": 50.0}
+{"input": "Email messages must be delivered successfully within 10 seconds.", "output": "[[9.0, 0.0], [10.0, 1.0], [11.0, 0.0]]", "class": 3, "number": 10.0}
+{"input": "Each file upload shall proceed in 4-megabyte chunks.", "output": "[[3.6, 0.0], [4.0, 1.0], [4.4, 0.0]]", "class": 3, "number": 4.0}
+{"input": "Image compression must follow a ratio defined as ten to one.", "output": "[[9.0, 0.0], [10.0, 1.0], [11.0, 0.0]]", "class": 3, "number": 10.0}
+{"input": "Uploaded files shall be limited to a maximum of 25 megabytes in size.", "output": "[[22.5, 0.0], [25.0, 1.0], [27.5, 0.0]]", "class": 3, "number": 25.0}
+{"input": "Telemetry data shall be sampled once every second in a continuous manner.", "output": "[[0.9, 0.0], [1.0, 1.0], [1.1, 0.0]]", "class": 3, "number": 1.0}
+{"input": "Authentication tokens must stay valid for exactly 3600 seconds.", "output": "[[3240.0, 0.0], [3600.0, 1.0], [3960.0, 0.0]]", "class": 3, "number": 3600.0}
+{"input": "The system heartbeat signal is transmitted consistently every 30 seconds.", "output": "[[27.0, 0.0], [30.0, 1.0], [33.0, 0.0]]", "class": 3, "number": 30.0}
+{"input": "SSL handshakes shall complete within a time span of 15 seconds.", "output": "[[13.5, 0.0], [15.0, 1.0], [16.5, 0.0]]", "class": 3, "number": 15.0}
+{"input": "Page loading shall finish precisely within one second after initiation.", "output": "[[0.9, 0.0], [1.0, 1.0], [1.1, 0.0]]", "class": 3, "number": 1.0}
+{"input": "Bulk import performance shall process 10000 records each minute.", "output": "[[9000.0, 0.0], [10000.0, 1.0], [11000.0, 0.0]]", "class": 3, "number": 10000.0}
+{"input": "Log rotation shall occur every time a file reaches 100 megabytes in size.", "output": "[[90.0, 0.0], [100.0, 1.0], [110.0, 0.0]]", "class": 3, "number": 100.0}
+{"input": "Replication lag is specified to measure exactly 200 milliseconds.", "output": "[[180.0, 0.0], [200.0, 1.0], [220.0, 0.0]]", "class": 3, "number": 200.0}
+{"input": "The random seed generator must produce entropy equal to 128 bits.", "output": "[[115.2, 0.0], [128.0, 1.0], [140.8, 0.0]]", "class": 3, "number": 128.0}
+{"input": "Thumbnail creation shall be completed within 250 milliseconds.", "output": "[[225.0, 0.0], [250.0, 1.0], [275.0, 0.0]]", "class": 3, "number": 250.0}
+{"input": "The system allows up to 20 concurrent file transfers at one time.", "output": "[[18.0, 0.0], [20.0, 1.0], [22.0, 0.0]]", "class": 3, "number": 20.0}
+{"input": "Report generation shall take precisely 10 seconds to complete.", "output": "[[9.0, 0.0], [10.0, 1.0], [11.0, 0.0]]", "class": 3, "number": 10.0}
+{"input": "DNS record time-to-live values shall remain fixed at 300 seconds.", "output": "[[270.0, 0.0], [300.0, 1.0], [330.0, 0.0]]", "class": 3, "number": 300.0}
+{"input": "The minimum free disk space threshold shall equal 5 gigabytes.", "output": "[[4.5, 0.0], [5.0, 1.0], [5.5, 0.0]]", "class": 3, "number": 5.0}
+{"input": "Each certificate shall have a validity duration of 397 days.", "output": "[[357.3, 0.0], [397.0, 1.0], [436.7, 0.0]]", "class": 3, "number": 397.0}
+{"input": "Webhook transmission shall retry exactly five times before giving up.", "output": "[[4.5, 0.0], [5.0, 1.0], [5.5, 0.0]]", "class": 3, "number": 5.0}
+{"input": "Checksum computation must be performed once per image upload operation.", "output": "[[9.0, 0.0], [10.0, 1.0], [11.0, 0.0]]", "class": 3, "number": 10.0}
+{"input": "API payload size is strictly defined as 2 megabytes.", "output": "[[1.8, 0.0], [2.0, 1.0], [2.2, 0.0]]", "class": 3, "number": 2.0}
+{"input": "System notifications are dispatched at 60-second intervals.", "output": "[[54.0, 0.0], [60.0, 1.0], [66.0, 0.0]]", "class": 3, "number": 60.0}
+{"input": "Each transaction commit shall finalize within 50 milliseconds.", "output": "[[45.0, 0.0], [50.0, 1.0], [55.0, 0.0]]", "class": 3, "number": 50.0}
+{"input": "Data replication shall operate with a replication factor of three.", "output": "[[2.7, 0.0], [3.0, 1.0], [3.3, 0.0]]", "class": 3, "number": 3.0}
+{"input": "Session cookies shall expire precisely after 86400 seconds of validity.", "output": "[[77760.0, 0.0], [86400.0, 1.0], [95040.0, 0.0]]", "class": 3, "number": 86400.0}
+{"input": "Each database query must finish executing in 500 milliseconds.", "output": "[[450.0, 0.0], [500.0, 1.0], [550.0, 0.0]]", "class": 3, "number": 500.0}
+{"input": "Log rotation is configured to execute once every 24 hours.", "output": "[[21.6, 0.0], [24.0, 1.0], [26.4, 0.0]]", "class": 3, "number": 24.0}
+{"input": "TLS record packet size shall remain constant at 16 kilobytes.", "output": "[[14.4, 0.0], [16.0, 1.0], [17.6, 0.0]]", "class": 3, "number": 16.0}
+{"input": "Each page of search results shall contain exactly 25 listed items.", "output": "[[22.5, 0.0], [25.0, 1.0], [27.5, 0.0]]", "class": 3, "number": 25.0}
+{"input": "Cache eviction verification occurs every 60 seconds automatically.", "output": "[[54.0, 0.0], [60.0, 1.0], [66.0, 0.0]]", "class": 3, "number": 60.0}
+{"input": "API concurrency capacity is limited to 200 parallel requests.", "output": "[[180.0, 0.0], [200.0, 1.0], [220.0, 0.0]]", "class": 3, "number": 200.0}
+{"input": "The disk write buffer is set at a fixed size of 8 megabytes.", "output": "[[7.2, 0.0], [8.0, 1.0], [8.8, 0.0]]", "class": 3, "number": 8.0}
+{"input": "Message queues can hold up to 10000 pending messages.", "output": "[[9000.0, 0.0], [10000.0, 1.0], [11000.0, 0.0]]", "class": 3, "number": 10000.0}
+{"input": "Each MQ consumer shall prefetch exactly 50 messages at a time.", "output": "[[45.0, 0.0], [50.0, 1.0], [55.0, 0.0]]", "class": 3, "number": 50.0}
+{"input": "Passwords are configured to expire every 90 days by policy.", "output": "[[81.0, 0.0], [90.0, 1.0], [99.0, 0.0]]", "class": 3, "number": 90.0}
+{"input": "Profile pictures shall not exceed 1024 by 1024 pixels in resolution.", "output": "[[921.6, 0.0], [1024.0, 1.0], [1126.4, 0.0]]", "class": 3, "number": 1024.0}
+{"input": "The total number of open file descriptors shall equal 1024.", "output": "[[921.6, 0.0], [1024.0, 1.0], [1126.4, 0.0]]", "class": 3, "number": 1024.0}
+{"input": "Health-check probes must execute automatically every 10 seconds.", "output": "[[9.0, 0.0], [10.0, 1.0], [11.0, 0.0]]", "class": 3, "number": 10.0}
+{"input": "The TLS communication protocol shall operate under version 1.3.", "output": "[[1.17, 0.0], [1.3, 1.0], [1.43, 0.0]]", "class": 3, "number": 1.3}
+{"input": "Idle connections shall close after remaining inactive for 120 seconds.", "output": "[[108.0, 0.0], [120.0, 1.0], [132.0, 0.0]]", "class": 3, "number": 120.0}
+{"input": "Streaming throughput shall consistently be 500 kilobits per second.", "output": "[[450.0, 0.0], [500.0, 1.0], [550.0, 0.0]]", "class": 3, "number": 500.0}
+{"input": "Cached reports remain valid for a period of exactly 3600 seconds.", "output": "[[3240.0, 0.0], [3600.0, 1.0], [3960.0, 0.0]]", "class": 3, "number": 3600.0}
+{"input": "The system shall record 2000 audit events each second.", "output": "[[1800.0, 0.0], [2000.0, 1.0], [2200.0, 0.0]]", "class": 3, "number": 2000.0}
+{"input": "Clock synchronization offset is maintained at exactly 5 milliseconds.", "output": "[[4.5, 0.0], [5.0, 1.0], [5.5, 0.0]]", "class": 3, "number": 5.0}
+{"input": "Each user session shall retain 100 historical records.", "output": "[[90.0, 0.0], [100.0, 1.0], [110.0, 0.0]]", "class": 3, "number": 100.0}
+{"input": "API responses shall not exceed a payload size of 512 kilobytes.", "output": "[[460.8, 0.0], [512.0, 1.0], [563.2, 0.0]]", "class": 3, "number": 512.0}
+{"input": "Backup snapshots are produced every 86400 seconds without exception.", "output": "[[77760.0, 0.0], [86400.0, 1.0], [95040.0, 0.0]]", "class": 3, "number": 86400.0}
+{"input": "Logging shall operate consistently at the INFO verbosity level.", "output": "[[0.9, 0.0], [1.0, 1.0], [1.1, 0.0]]", "class": 3, "number": 1.0}
+{"input": "Each image tile shall measure precisely 256 by 256 pixels.", "output": "[[230.4, 0.0], [256.0, 1.0], [281.6, 0.0]]", "class": 3, "number": 256.0}
+{"input": "CDN edge cache validity is configured for 86400 seconds.", "output": "[[77760.0, 0.0], [86400.0, 1.0], [95040.0, 0.0]]", "class": 3, "number": 86400.0}
+{"input": "The remarketing audience capacity shall be 100000 registered users.", "output": "[[90000.0, 0.0], [100000.0, 1.0], [110000.0, 0.0]]", "class": 3, "number": 100000.0}
+{"input": "Leak detection of file descriptors shall execute every 600 seconds.", "output": "[[540.0, 0.0], [600.0, 1.0], [660.0, 0.0]]", "class": 3, "number": 600.0}
+{"input": "Password strength scoring shall achieve at least 80 points.", "output": "[[72.0, 0.0], [80.0, 1.0], [88.0, 0.0]]", "class": 3, "number": 80.0}
+{"input": "Concurrent video streams are configured to total 10 active streams.", "output": "[[9.0, 0.0], [10.0, 1.0], [11.0, 0.0]]", "class": 3, "number": 10.0}
+{"input": "Frame rendering time per page is maintained at 16 milliseconds.", "output": "[[14.4, 0.0], [16.0, 1.0], [17.6, 0.0]]", "class": 3, "number": 16.0}
+{"input": "Sensor data is sampled continuously at a rate of 100 Hz.", "output": "[[90.0, 0.0], [100.0, 1.0], [110.0, 0.0]]", "class": 3, "number": 100.0}
+{"input": "Control loop latency shall remain constant at 5 milliseconds.", "output": "[[4.5, 0.0], [5.0, 1.0], [5.5, 0.0]]", "class": 3, "number": 5.0}
+{"input": "Data export shall process records in batches of exactly 1000.", "output": "[[900.0, 0.0], [1000.0, 1.0], [1100.0, 0.0]]", "class": 3, "number": 1000.0}
+{"input": "Each search index is partitioned into precisely 12 shards.", "output": "[[10.8, 0.0], [12.0, 1.0], [13.2, 0.0]]", "class": 3, "number": 12.0}
+{"input": "The system configuration allows for 50 registered subdomains.", "output": "[[45.0, 0.0], [50.0, 1.0], [55.0, 0.0]]", "class": 3, "number": 50.0}
+{"input": "Authentication attempts shall occur at a frequency of 10 per minute.", "output": "[[9.0, 0.0], [10.0, 1.0], [11.0, 0.0]]", "class": 3, "number": 10.0}
+{"input": "Thumbnail images are created at dimensions of 200 by 200 pixels.", "output": "[[180.0, 0.0], [200.0, 1.0], [220.0, 0.0]]", "class": 3, "number": 200.0}
+{"input": "Session creation rate is maintained at 20 new sessions per second.", "output": "[[18.0, 0.0], [20.0, 1.0], [22.0, 0.0]]", "class": 3, "number": 20.0}
+{"input": "Each REST endpoint is designed to handle 10 parameters.", "output": "[[9.0, 0.0], [10.0, 1.0], [11.0, 0.0]]", "class": 3, "number": 10.0}
+{"input": "SSL key pairs must possess a minimum bit length of 2048.", "output": "[[1843.2, 0.0], [2048.0, 1.0], [2252.8, 0.0]]", "class": 3, "number": 2048.0}
+{"input": "Database write concurrency shall support up to 500 simultaneous operations.", "output": "[[450.0, 0.0], [500.0, 1.0], [550.0, 0.0]]", "class": 3, "number": 500.0}
+{"input": "API documentation shall refresh automatically every 30 days.", "output": "[[27.0, 0.0], [30.0, 1.0], [33.0, 0.0]]", "class": 3, "number": 30.0}
+{"input": "Cache capacity shall accommodate exactly 100000 distinct objects.", "output": "[[90000.0, 0.0], [100000.0, 1.0], [110000.0, 0.0]]", "class": 3, "number": 100000.0}
+{"input": "The P95 latency value shall be measured as 300 milliseconds.", "output": "[[270.0, 0.0], [300.0, 1.0], [330.0, 0.0]]", "class": 3, "number": 300.0}
+{"input": "Image color depth shall maintain a resolution of 24 bits per pixel.", "output": "[[21.6, 0.0], [24.0, 1.0], [26.4, 0.0]]", "class": 3, "number": 24.0}
+{"input": "Job scheduling shall maintain a pool of 200 active tasks.", "output": "[[180.0, 0.0], [200.0, 1.0], [220.0, 0.0]]", "class": 3, "number": 200.0}
+{"input": "Worker throughput shall reach 150 processed messages each second.", "output": "[[135.0, 0.0], [150.0, 1.0], [165.0, 0.0]]", "class": 3, "number": 150.0}
+{"input": "Substring length shall be fixed to a limit of 256 characters.", "output": "[[230.4, 0.0], [256.0, 1.0], [281.6, 0.0]]", "class": 3, "number": 256.0}
+{"input": "Keepalive pings shall be transmitted every 75 seconds.", "output": "[[67.5, 0.0], [75.0, 1.0], [82.5, 0.0]]", "class": 3, "number": 75.0}
+{"input": "Audit trail capacity shall equal exactly 10 gigabytes of data.", "output": "[[9.0, 0.0], [10.0, 1.0], [11.0, 0.0]]", "class": 3, "number": 10.0}
+{"input": "API key entropy shall measure precisely 160 bits.", "output": "[[144.0, 0.0], [160.0, 1.0], [176.0, 0.0]]", "class": 3, "number": 160.0}
+{"input": "The number of simultaneous SSH sessions shall total five.", "output": "[[4.5, 0.0], [5.0, 1.0], [5.5, 0.0]]", "class": 3, "number": 5.0}
+{"input": "Archived data must remain accessible for 1825 days.", "output": "[[1642.5, 0.0], [1825.0, 1.0], [2007.5, 0.0]]", "class": 3, "number": 1825.0}
+{"input": "Push notifications shall be delivered to clients in 2 seconds.", "output": "[[1.8, 0.0], [2.0, 1.0], [2.2, 0.0]]", "class": 3, "number": 2.0}
+{"input": "Replication bandwidth shall consistently achieve 50 megabits per second.", "output": "[[45.0, 0.0], [50.0, 1.0], [55.0, 0.0]]", "class": 3, "number": 50.0}
+{"input": "The graphical interface supports 40 concurrent widgets.", "output": "[[36.0, 0.0], [40.0, 1.0], [44.0, 0.0]]", "class": 3, "number": 40.0}
+{"input": "Screen brightness shall be calibrated to an output of 300 nits.", "output": "[[270.0, 0.0], [300.0, 1.0], [330.0, 0.0]]", "class": 3, "number": 300.0}
+{"input": "SSE connections shall remain fixed at a total of 500 active links.", "output": "[[450.0, 0.0], [500.0, 1.0], [550.0, 0.0]]", "class": 3, "number": 500.0}
+{"input": "Log ingestion shall process 10000 events every single minute.", "output": "[[9000.0, 0.0], [10000.0, 1.0], [11000.0, 0.0]]", "class": 3, "number": 10000.0}
+{"input": "User role capacity shall total precisely 20 available roles.", "output": "[[18.0, 0.0], [20.0, 1.0], [22.0, 0.0]]", "class": 3, "number": 20.0}
+{"input": "Database checkpoints are to occur every 15 minutes.", "output": "[[13.5, 0.0], [15.0, 1.0], [16.5, 0.0]]", "class": 3, "number": 15.0}
+{"input": "Each certificate chain shall contain five individual certificates.", "output": "[[4.5, 0.0], [5.0, 1.0], [5.5, 0.0]]", "class": 3, "number": 5.0}
+{"input": "Snapshot consistency duration shall equal 60 seconds per cycle.", "output": "[[54.0, 0.0], [60.0, 1.0], [66.0, 0.0]]", "class": 3, "number": 60.0}
+{"input": "The OAuth scope count shall total exactly 30 items.", "output": "[[27.0, 0.0], [30.0, 1.0], [33.0, 0.0]]", "class": 3, "number": 30.0}
+{"input": "Session state snapshots shall occur every 120 seconds.", "output": "[[108.0, 0.0], [120.0, 1.0], [132.0, 0.0]]", "class": 3, "number": 120.0}
+{"input": "Backup operations shall occupy a continuous window of two hours.", "output": "[[1.8, 0.0], [2.0, 1.0], [2.2, 0.0]]", "class": 3, "number": 2.0}
+{"input": "File system inode reservation shall equal one percent of total capacity.", "output": "[[0.9, 0.0], [1.0, 1.0], [1.1, 0.0]]", "class": 3, "number": 1.0}
+{"input": "Pivot tables shall include exactly 1000 rows by definition.", "output": "[[900.0, 0.0], [1000.0, 1.0], [1100.0, 0.0]]", "class": 3, "number": 1000.0}
+{"input": "Font rendering shall maintain a resolution of 96 dots per inch.", "output": "[[86.4, 0.0], [96.0, 1.0], [105.6, 0.0]]", "class": 3, "number": 96.0}
+{"input": "The total active feature flag count shall be 50 at maximum.", "output": "[[45.0, 0.0], [50.0, 1.0], [55.0, 0.0]]", "class": 3, "number": 50.0}
+{"input": "Checksums shall be computed using 32-bit numerical precision.", "output": "[[28.8, 0.0], [32.0, 1.0], [35.2, 0.0]]", "class": 3, "number": 32.0}
+{"input": "Telemetry transmission shall proceed at 256 kilobytes per second.", "output": "[[230.4, 0.0], [256.0, 1.0], [281.6, 0.0]]", "class": 3, "number": 256.0}
+{"input": "Data masking shall maintain accuracy up to 4 decimal places.", "output": "[[3.6, 0.0], [4.0, 1.0], [4.4, 0.0]]", "class": 3, "number": 4.0}
+{"input": "Image uploads shall occur at a frequency of 20 per minute.", "output": "[[18.0, 0.0], [20.0, 1.0], [22.0, 0.0]]", "class": 3, "number": 20.0}
+{"input": "Service discovery propagation shall complete within exactly 10 seconds.", "output": "[[9.0, 0.0], [10.0, 1.0], [11.0, 0.0]]", "class": 3, "number": 10.0}

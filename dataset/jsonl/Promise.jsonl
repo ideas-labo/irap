@@ -1,0 +1,45 @@
+{"sentence_id": 1, "sentence": "The search results shall be returned no later 30 seconds  after the user has entered the search criteria", "label": [[30.0, 1.0], [33.0, 0.0]]}
+{"sentence_id": 2, "sentence": "The product shall generate a CMA report in an acceptable time.", "label": [[0.0, 1.0], [100.0, 0.0]]}
+{"sentence_id": 3, "sentence": "The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.", "label": [[60.0, 1.0], [66.0, 0.0]]}
+{"sentence_id": 4, "sentence": "The product shall synchronize contacts and appointments in an acceptable time.", "label": [[0.0, 1.0], [1.0, 0.0]]}
+{"sentence_id": 5, "sentence": "The product shall synchronize with the office system every hour.", "label": [[54.0, 0.0], [60.0, 1.0], [66.0, 0.0]]}
+{"sentence_id": 6, "sentence": "The response time of general student management tasks shall take no longer than 5 seconds", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 7, "sentence": "The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 8, "sentence": "The Disputes application shall support 350 concurrent users without any degradation of performance in the application.", "label": [[315.0, 0.0], [350.0, 1.0]]}
+{"sentence_id": 9, "sentence": "The search for recycled parts shall take no longer than 15 seconds.", "label": [[15.0, 1.0], [16.5, 0.0]]}
+{"sentence_id": 10, "sentence": "The search for the preferred repair facility shall take no longer than 8 seconds.  The preferred repair facility is returned within 8 seconds", "label": [[8.0, 1.0], [8.8, 0.0]]}
+{"sentence_id": 11, "sentence": "The recycled parts audit report shall be returned to the user within 10 seconds.", "label": [[10.0, 1.0], [11.0, 0.0]]}
+{"sentence_id": 12, "sentence": "The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 13, "sentence": "The response shall be fast enough to avoid interrupting the user’s flow of thought.  90% of tasks shall complete within 5 seconds.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 14, "sentence": "Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.", "label": [[30.0, 1.0], [33.0, 0.0]]}
+{"sentence_id": 15, "sentence": "The System shall allow for a minimum of  6 users to work at the same time.", "label": [[5.4, 0.0], [6.0, 1.0]]}
+{"sentence_id": 16, "sentence": "Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 17, "sentence": "Customer shall be able to check the status of their prepaid card  by entering in the PIN number  in under 5 seconds.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 18, "sentence": "System shall let customers register on the website as a “pay as you go” user in under 5 minutes.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 19, "sentence": "System shall let customers register on the website as a “unlimited movie subscriber” user in under 10 minutes.", "label": [[10.0, 1.0], [11.0, 0.0]]}
+{"sentence_id": 20, "sentence": "System shall let existing customers log into the website with their email address and password in under 5 seconds.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 21, "sentence": "System shall let customers cancel their account  process shall take no longer than 2 minutes.  Database will mark the account as inactive  and user will not be able to log into the website.", "label": [[120.0, 1.0], [132.0, 0.0]]}
+{"sentence_id": 22, "sentence": "System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.", "label": [[60.0, 1.0], [66.0, 0.0]]}
+{"sentence_id": 23, "sentence": "System shall let administrator add/remove movies on the website in under 5 minutes.  Entered movie information will be stored in the database and will now be available on the website.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 24, "sentence": "System shall let the administrator add/remove categories on the website in under 5 minutes.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 25, "sentence": "System shall let Izogn Manager access sales and usage statistics in under 2 minutes.", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 26, "sentence": "System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 27, "sentence": "Any interface between a user and the automated system shall have a maximum response time of 5 seconds  unless noted by an exception below.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 28, "sentence": "When purchasing a streaming movie or pre-paid card via credit card  the processing time should have a maximum response time of 15 seconds.", "label": [[15.0, 1.0], [16.5, 0.0]]}
+{"sentence_id": 29, "sentence": "When streaming a movie  the buffering time should take no longer than 10 seconds (plus any latency on the user’s connection.)", "label": [[10.0, 1.0], [11.0, 0.0]]}
+{"sentence_id": 30, "sentence": "Izogn Administrator must be able to update the category listings on the website within 2 minutes.", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 31, "sentence": "Izogn Administrator must be able to add new products to the website within 2 minutes.", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 32, "sentence": "Total lead cycle time must be completed in 5 minutes for 90% of lead volume between the business hours of 8AM CST to 8PM CST.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 33, "sentence": "No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.", "label": [[25.0, 1.0], [27.5, 0.0]]}
+{"sentence_id": 34, "sentence": "For leads that process longer than 25 seconds the system will record the event and duration", "label": [[25.0, 1.0], [27.5, 0.0]]}
+{"sentence_id": 35, "sentence": "The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.", "label": [[3.0, 1.0], [3.3, 0.0]]}
+{"sentence_id": 36, "sentence": "The product shall able to handle a large number of games simultaneously.", "label": [[0.0, 0.0], [90.0, 1.0]]}
+{"sentence_id": 37, "sentence": "The response time shall be fast enough to maintain the flow of the game.  The response time shall be no more than 2 seconds for the responses.", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 38, "sentence": "The system shall be responsive. At the DePaul TeleServices Center  when a supervisor uses the system to view a callers schedule  the system response time must be no more than 2 seconds.", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 39, "sentence": "On a 56k connection  the system response time for all operations must be no more than 6 seconds 90% of the time.", "label": [[6.0, 1.0], [6.6, 0.0]]}
+{"sentence_id": 40, "sentence": "On a 112k connection or faster  the system response time for all operations must be no more than 3 seconds 90% of the time.", "label": [[3.0, 1.0], [3.3, 0.0]]}
+{"sentence_id": 41, "sentence": "The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 42, "sentence": "The product shall poll the system for messages every second.The product shall poll the system for new messages at a maximum of every 1 second.", "label": [[1.0, 1.0], [1.1, 0.0]]}
+{"sentence_id": 43, "sentence": "The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.", "label": [[0.0, 0.0], [1.0, 1.0]]}
+{"sentence_id": 44, "sentence": "The application shall be able to complete every user transaction within 0.25 second of receiving the request over the network.", "label": [[0.25, 1.0], [0.275, 0.0]]}
+{"sentence_id": 45, "sentence": "The product interface should be fast. The response time of the product interface should not exceed 2 seconds.", "label": [[2.0, 1.0], [2.2, 0.0]]}

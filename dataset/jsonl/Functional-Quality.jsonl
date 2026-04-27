@@ -1,0 +1,10 @@
+{"sentence_id": 1, "sentence": "ReqView Desktop shall start in less than 10s. ", "label": [[10.0, 1.0], [11.0, 0.0]]}
+{"sentence_id": 2, "sentence": "The very first time it shall start in less than 30s.", "label": [[30.0, 1.0], [33.0, 0.0]]}
+{"sentence_id": 3, "sentence": "User shall be able to work with documents up to 1000 objects.", "label": [[900.0, 0.0], [1000.0, 1.0]]}
+{"sentence_id": 4, "sentence": "User shall be able to work with documents up to 100 file attachments.", "label": [[90.0, 0.0], [100.0, 1.0]]}
+{"sentence_id": 5, "sentence": "User shall be able to work with documents up to 100MB in size.", "label": [[90.0, 0.0], [100.0, 1.0]]}
+{"sentence_id": 6, "sentence": "Response time for common edit operations (change attributes and structure) shall be less than 1s.", "label": [[1000.0, 1.0], [1100.0, 0.0]]}
+{"sentence_id": 7, "sentence": "Opening or saving a local file shall took less than 10s.", "label": [[10.0, 1.0], [11.0, 0.0]]}
+{"sentence_id": 8, "sentence": "Scrolling requirements table shall be smooth with jerks shorter than 200ms", "label": [[200.0, 1.0], [220.0, 0.0]]}
+{"sentence_id": 9, "sentence": "Routine patching of the system shall be possible with minimal (i.e. less than 5 minutes) downtime.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 10, "sentence": "Routine patching of the system shall be possible with no more than 1 hours downtime.", "label": [[1.0, 1.0], [1.1, 0.0]]}

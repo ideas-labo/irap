@@ -1,0 +1,15 @@
+# 使用默认模型
+python sota/LLM_api/analysis.py
+
+# 指定特定模型
+python sota/LLM_api/analysis.py --model "deepseek-ai/DeepSeek-V3.1-Terminus"
+
+# 或者
+python sota/LLM_api/analysis.py --model "Qwen/Qwen3-Coder-480B-A35B-Instruct"
+
+# 或者
+python sota/LLM_api/analysis.py --model "moonshotai/Kimi-K2-Instruct-0905"
+
+python sota/LLM_api/analysis.py --model "gpt-5-mini"
+
+python sota/LLM_api/analysis.py --model "llama-4-maverick-17b-128e-instruct"

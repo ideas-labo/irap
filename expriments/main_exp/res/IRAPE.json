@@ -1,0 +1,54 @@
+[
+    {
+        "dataset": "Functional-Quality",
+        "result": [
+            {
+                "IRAPE": {
+                    "P2P-Dist": "0.2700 (0.4124)",
+                    "Chebyshev": "0.0000 (0.0000)",
+                    "RMSE": "0.0000 (0.0000)",
+                    "Area-Diff": "0.0000 (0.0000)"
+                }
+            }
+        ]
+    },
+    {
+        "dataset": "Promise",
+        "result": [
+            {
+                "IRAPE": {
+                    "P2P-Dist": "0.2358 (0.3850)",
+                    "Chebyshev": "0.0251 (0.0839)",
+                    "RMSE": "0.0123 (0.0418)",
+                    "Area-Diff": "0.0094 (0.0336)"
+                }
+            }
+        ]
+    },
+    {
+        "dataset": "PURE",
+        "result": [
+            {
+                "IRAPE": {
+                    "P2P-Dist": "0.0391 (0.0502)",
+                    "Chebyshev": "0.1411 (0.2231)",
+                    "RMSE": "0.0573 (0.0883)",
+                    "Area-Diff": "0.0361 (0.0533)"
+                }
+            }
+        ]
+    },
+    {
+        "dataset": "Shaukat_et_al",
+        "result": [
+            {
+                "IRAPE": {
+                    "P2P-Dist": "0.0970 (0.2214)",
+                    "Chebyshev": "0.1243 (0.2157)",
+                    "RMSE": "0.0482 (0.0846)",
+                    "Area-Diff": "0.0291 (0.0515)"
+                }
+            }
+        ]
+    }
+]

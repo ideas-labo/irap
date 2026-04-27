@@ -1,0 +1,10 @@
+{"index": 1, "p2p_distance": 1.0024937810560446, "chebyshev_distance": 0.9, "rmse": 0.09999999999999998, "area_difference": 0.09999999999999998}
+{"index": 2, "p2p_distance": 1.5553402360515378, "chebyshev_distance": 1.0, "rmse": 0.8485281374238571, "area_difference": 0.25833333333333347}
+{"index": 3, "p2p_distance": 0.498094, "chebyshev_distance": 0.996188, "rmse": 0.5338539126015656, "area_difference": 0.498094}
+{"index": 4, "p2p_distance": 0.498095, "chebyshev_distance": 0.99619, "rmse": 0.5338539126015656, "area_difference": 0.498095}
+{"index": 5, "p2p_distance": 1.0, "chebyshev_distance": 1.0, "rmse": 0.5338539126015656, "area_difference": 0.5}
+{"index": 6, "p2p_distance": 0.5676008683768267, "chebyshev_distance": 0.9, "rmse": 0.4287559731798384, "area_difference": 0.35450409463148314}
+{"index": 7, "p2p_distance": 1.7795084971874737, "chebyshev_distance": 1.0, "rmse": 0.8485281374238571, "area_difference": 0.25}
+{"index": 8, "p2p_distance": 1.1484248134401147, "chebyshev_distance": 1.0, "rmse": 0.6204836822995429, "area_difference": 0.480171875}
+{"index": 9, "p2p_distance": 1.1659799293339836, "chebyshev_distance": 0.6544444444444444, "rmse": 0.5338539126015656, "area_difference": 0.4835}
+{"index": 10, "p2p_distance": 0.55, "chebyshev_distance": 1.0, "rmse": 0.5018484351393873, "area_difference": 0.44999999999999996}

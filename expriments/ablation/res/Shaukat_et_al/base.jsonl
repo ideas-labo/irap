@@ -1,0 +1,15 @@
+{"index": 1, "p2p_distance": 0.505, "chebyshev_distance": 0.010000000000000009, "rmse": 0.00533853912601566, "area_difference": 0.0050000000000000044}
+{"index": 2, "p2p_distance": 0.8333781878082895, "chebyshev_distance": 0.5238095238095238, "rmse": 0.2076889490234983, "area_difference": 0.12761020881670537}
+{"index": 3, "p2p_distance": 0.8333781878082895, "chebyshev_distance": 0.5238095238095238, "rmse": 0.2076889490234983, "area_difference": 0.12761020881670534}
+{"index": 4, "p2p_distance": 0.505, "chebyshev_distance": 0.010000000000000009, "rmse": 0.00533853912601566, "area_difference": 0.0050000000000000044}
+{"index": 5, "p2p_distance": 0.505, "chebyshev_distance": 0.010000000000000009, "rmse": 0.00533853912601566, "area_difference": 0.0050000000000000044}
+{"index": 6, "p2p_distance": 1.1571067811865476, "chebyshev_distance": 0.9, "rmse": 0.5338539126015656, "area_difference": 0.4}
+{"index": 7, "p2p_distance": 1.1121067811865477, "chebyshev_distance": 0.81, "rmse": 0.4468030886195842, "area_difference": 0.355}
+{"index": 8, "p2p_distance": 1.0, "chebyshev_distance": 0.0, "rmse": 0.0, "area_difference": 0.0}
+{"index": 9, "p2p_distance": 0.505, "chebyshev_distance": 0.010000000000000009, "rmse": 0.00533853912601566, "area_difference": 0.0050000000000000044}
+{"index": 10, "p2p_distance": 0.5, "chebyshev_distance": 0.0, "rmse": 0.0, "area_difference": 0.0}
+{"index": 11, "p2p_distance": 0.505, "chebyshev_distance": 0.010000000000000009, "rmse": 0.00533853912601566, "area_difference": 0.0050000000000000044}
+{"index": 12, "p2p_distance": 0.40311288741492735, "chebyshev_distance": 0.6999999999999997, "rmse": 0.3901922603025331, "area_difference": 0.30999999999999983}
+{"index": 13, "p2p_distance": 0.8333781878082895, "chebyshev_distance": 0.5238095238095237, "rmse": 0.2076889490234983, "area_difference": 0.12761020881670534}
+{"index": 14, "p2p_distance": 0.8333781878082895, "chebyshev_distance": 0.523809523809524, "rmse": 0.20768894902349833, "area_difference": 0.1276102088167054}
+{"index": 15, "p2p_distance": 1.0, "chebyshev_distance": 0.0, "rmse": 0.0, "area_difference": 0.0}

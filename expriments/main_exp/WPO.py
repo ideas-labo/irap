@@ -1,0 +1,198 @@
+import pickle
+import matplotlib.pyplot as plt
+import numpy as np
+import json
+from tqdm import tqdm
+from collections import defaultdict
+import os
+
+from expriments.metrix import *
+from sota.RLHF.WPO.wpo import WPO
+
+def save_data_to_jsonl(results, filepath):
+    """Save results to jsonl file"""
+    # Create target folder (if it doesn't exist)
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+
+    with open(filepath, 'w', encoding='utf-8') as f:
+        for result in results:
+            # Convert result to dictionary format
+            result_dict = {
+                'index': result[0],  # Sequence number
+                'p2p_distance': result[1],
+                'chebyshev_distance': result[2], 
+                'rmse': result[3],
+                'area_difference': result[4]
+            }
+            f.write(json.dumps(result_dict, ensure_ascii=False) + '\n')
+
+def save_data_to_json(data, filename):
+    """Saves a Python object (list or dict) to a JSON file."""
+    try:
+        # Create target folder (if it doesn't exist)
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        
+        # 'w' mode for writing
+        # indent=4 makes the output readable (pretty-print)
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=4)
+        
+        print(f"✅ Data successfully saved to '{filename}'")
+        print(f"File size: {os.path.getsize(filename) / 1024:.2f} KB")
+        
+    except IOError as e:
+        print(f"❌ Error saving file: {e}")
+
+source_pre = 'dataset/pkl/'
+files = ['Promise', 'Functional-Quality', 'PURE', 'Shaukat_et_al']
+database_path = 'dataset/pkl/final_synthetic_dataset.pkl'
+method = "wpo"
+
+wpo = WPO()
+
+for filename in files:
+
+    data_path = source_pre + 'final_' + filename + '.pkl'
+    with open(data_path, 'rb') as f:
+        datas = pickle.load(f)
+
+    # List to store results
+    results = []
+    # Add progress bar to the first main calculation loop
+    for i, data in tqdm(enumerate(datas), 
+                       total=len(datas), 
+                       desc=f"Processing Results1 - {filename}", 
+                       unit="data"):
+        list1 = data["label"]
+        list2 = data["prefer_label"]
+        
+        # Calculate four types of differences
+        p2p_distance = p_to_p_dis(list1, list2)  # Point-to-point distance difference
+        chebyshev_distance = chebyshev_dis(list1, list2)  # Maximum deviation (Chebyshev distance)
+        rmse = RMSE_dis(list1, list2)  # Root mean square error
+        area_difference = area_dis(list1, list2)  # Integral area difference
+        
+        # Add results to the result list
+        results.append([
+            i + 1,  # Sequence number
+            p2p_distance,
+            chebyshev_distance,
+            rmse,
+            area_difference
+        ])
+
+
+    # List to store results
+    results2 = []
+    # Add progress bar to the second main calculation loop
+    for i, data in tqdm(enumerate(datas), 
+                       total=len(datas), 
+                       desc=f"Processing Results2 - {filename}", 
+                       unit="data"):
+        
+        list1 = wpo.gen_ans(data) #Generate answers using WPO method
+        list2 = data["prefer_label"]
+        
+        # Calculate four types of differences
+        p2p_distance = p_to_p_dis(list1, list2)  # Point-to-point distance difference
+        chebyshev_distance = chebyshev_dis(list1, list2)  # Maximum deviation (Chebyshev distance)
+        rmse = RMSE_dis(list1, list2)  # Root mean square error
+        area_difference = area_dis(list1, list2)  # Integral area difference
+        
+        # Add results to the result list
+        results2.append([
+            i + 1,  # Sequence number
+            p2p_distance,
+            chebyshev_distance,
+            rmse,
+            area_difference
+        ])
+
+    # Save experimental results to jsonl file
+    save_data_to_jsonl(results, f'expriments/main_exp/res/tmp/{filename}/{method}.jsonl')
+    print(f"Results saved for {filename} using wpo")
+
+DIR_PRE = "expriments/main_exp/res/tmp/"
+
+DIRS = [
+    "Functional-Quality",
+    "Promise",
+    "PURE",
+    "Shaukat_et_al"
+]
+
+METHODS = [
+    "WPO",
+]
+
+FILES = [
+    "results2_wpo.jsonl",
+]
+
+# --- Configuration ---
+metric_keys = {
+    "p2p_distance": "P2P-Dist",
+    "chebyshev_distance": "Chebyshev",
+    "rmse": "RMSE",
+    "area_difference": "Area-Diff"
+}
+
+final_res = []
+for dir in DIRS:
+    res = {}
+    res["dataset"] = dir
+    res["result"] = {}
+    for i in range(1):
+        method = METHODS[i]
+        
+        FILE_NAME = DIR_PRE + dir + '/' + FILES[i]
+
+        # List to store all values for each metric
+        metric_values = defaultdict(list)
+
+        # 1. Read JSONL data from file
+        try:
+            print(f"--- Reading data from {FILE_NAME} ---")
+            with open(FILE_NAME, 'r', encoding='utf-8') as f:
+                for line_num, line in enumerate(f, 1):
+                    line = line.strip()
+                    if not line:
+                        continue
+                    
+                    try:
+                        data = json.loads(line)
+                        for json_key in metric_keys.keys():
+                            if json_key in data:
+                                metric_values[json_key].append(data[json_key])
+                    except json.JSONDecodeError:
+                        print(f"Warning: Skipping invalid JSON on line {line_num}: {line}")
+                        continue
+        except FileNotFoundError:
+            print(f"Error: The file '{FILE_NAME}' was not found. Please create it and add the JSONL data.")
+            exit()
+
+        # 2. Calculate mean and standard deviation
+        results = {}
+        for json_key, output_key in metric_keys.items():
+            values = metric_values[json_key]
+            
+            if values:
+                # Use numpy for calculations
+                avg = np.mean(values)
+                std = np.std(values)
+                
+                # Format output string: avg(std), keep 4 decimal places
+                formatted_avg = f"{avg:.4f}"
+                formatted_std = f"{std:.4f}"
+                
+                results[output_key] = f"{formatted_avg} ({formatted_std})"
+            else:
+                results[output_key] = "N/A"
+        # 3. Print final results
+        print("\n--- Statistical Results ---")
+        print(json.dumps(results, indent=4))
+        res["result"][method] = results
+    final_res.append(res)
+
+save_path = "expriments/main_exp/res/WPO.json"
+save_data_to_json(final_res, save_path)

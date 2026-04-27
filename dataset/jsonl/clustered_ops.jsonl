@@ -1,0 +1,30 @@
+{"cluster_id": 0, "ops": [{"type": "decrease", "loc": 1, "sign": true}, {"type": "increase", "loc": 0, "sign": true}, {"type": "decrease", "loc": 0, "sign": false}, {"type": "increase", "loc": 1, "sign": false}, {"type": "add_point", "l": 1, "r": 2}]}
+{"cluster_id": 1, "ops": [{"type": "add_point", "l": 1, "r": 2}]}
+{"cluster_id": 2, "ops": [{"type": "decrease", "loc": 0, "sign": true}, {"type": "decrease", "loc": 1, "sign": false}, {"type": "decrease", "loc": 1, "sign": false}, {"type": "decrease", "loc": 1, "sign": true}]}
+{"cluster_id": 3, "ops": [{"type": "increase", "loc": 0, "sign": true}]}
+{"cluster_id": 4, "ops": [{"type": "add_point", "l": 0, "r": 1}, {"type": "decrease", "loc": 1, "sign": false}, {"type": "add_point", "l": 1, "r": 2}, {"type": "decrease", "loc": 3, "sign": false}, {"type": "decrease", "loc": 3, "sign": true}]}
+{"cluster_id": 5, "ops": [{"type": "decrease", "loc": 1, "sign": true}, {"type": "decrease", "loc": 0, "sign": false}, {"type": "add_point", "l": 1, "r": 2}]}
+{"cluster_id": 6, "ops": [{"type": "add_point", "l": 1, "r": 2}, {"type": "increase", "loc": 1, "sign": true}]}
+{"cluster_id": 7, "ops": [{"type": "add_point", "l": 1, "r": 2}, {"type": "decrease", "loc": 1, "sign": false}, {"type": "add_point", "l": 1, "r": 2}]}
+{"cluster_id": 8, "ops": [{"type": "increase", "loc": 0, "sign": false}, {"type": "add_point", "l": -1, "r": 0}, {"type": "increase", "loc": 0, "sign": false}, {"type": "increase", "loc": 0, "sign": true}, {"type": "add_point", "l": 0, "r": 1}]}
+{"cluster_id": 9, "ops": [{"type": "decrease", "loc": 1, "sign": false}, {"type": "add_point", "l": 0, "r": 1}]}
+{"cluster_id": 10, "ops": [{"type": "decrease", "loc": 1, "sign": false}, {"type": "decrease", "loc": 0, "sign": true}]}
+{"cluster_id": 11, "ops": [{"type": "add_point", "l": 1, "r": 2}, {"type": "decrease", "loc": 2, "sign": false}, {"type": "decrease", "loc": 1, "sign": false}, {"type": "add_point", "l": -1, "r": 0}, {"type": "increase", "loc": 3, "sign": true}]}
+{"cluster_id": 12, "ops": [{"type": "increase", "loc": 1, "sign": false}, {"type": "add_point", "l": 1, "r": 2}, {"type": "add_point", "l": 2, "r": 3}, {"type": "add_point", "l": -1, "r": 0}, {"type": "add_point", "l": 3, "r": 4}]}
+{"cluster_id": 13, "ops": [{"type": "add_point", "l": 1, "r": 2}, {"type": "increase", "loc": 0, "sign": false}, {"type": "increase", "loc": 2, "sign": false}, {"type": "add_point", "l": 2, "r": 3}]}
+{"cluster_id": 14, "ops": [{"type": "add_point", "l": -1, "r": 0}, {"type": "add_point", "l": 2, "r": 3}, {"type": "decrease", "loc": 1, "sign": false}, {"type": "decrease", "loc": 2, "sign": true}]}
+{"cluster_id": 15, "ops": [{"type": "increase", "loc": 0, "sign": false}, {"type": "add_point", "l": 1, "r": 2}, {"type": "decrease", "loc": 1, "sign": true}, {"type": "increase", "loc": 2, "sign": true}, {"type": "decrease", "loc": 2, "sign": true}]}
+{"cluster_id": 16, "ops": [{"type": "add_point", "l": -1, "r": 0}, {"type": "decrease", "loc": 0, "sign": false}, {"type": "add_point", "l": 2, "r": 3}, {"type": "decrease", "loc": 2, "sign": true}, {"type": "increase", "loc": 2, "sign": false}]}
+{"cluster_id": 17, "ops": [{"type": "increase", "loc": 0, "sign": true}, {"type": "decrease", "loc": 0, "sign": false}, {"type": "increase", "loc": 0, "sign": true}]}
+{"cluster_id": 18, "ops": [{"type": "add_point", "l": 0, "r": 1}, {"type": "add_point", "l": 2, "r": 3}, {"type": "decrease", "loc": 3, "sign": true}, {"type": "increase", "loc": 2, "sign": false}]}
+{"cluster_id": 19, "ops": [{"type": "decrease", "loc": 0, "sign": false}, {"type": "increase", "loc": 0, "sign": false}, {"type": "add_point", "l": 0, "r": 1}]}
+{"cluster_id": 20, "ops": [{"type": "add_point", "l": 0, "r": 1}, {"type": "add_point", "l": -1, "r": 0}, {"type": "add_point", "l": 2, "r": 3}]}
+{"cluster_id": 21, "ops": [{"type": "add_point", "l": -1, "r": 0}, {"type": "decrease", "loc": 2, "sign": true}]}
+{"cluster_id": 22, "ops": [{"type": "increase", "loc": 0, "sign": false}, {"type": "increase", "loc": 1, "sign": false}]}
+{"cluster_id": 23, "ops": [{"type": "add_point", "l": 1, "r": 2}, {"type": "decrease", "loc": 2, "sign": false}]}
+{"cluster_id": 24, "ops": [{"type": "increase", "loc": 0, "sign": true}]}
+{"cluster_id": 25, "ops": [{"type": "increase", "loc": 1, "sign": false}, {"type": "add_point", "l": -1, "r": 0}, {"type": "add_point", "l": -1, "r": 0}, {"type": "decrease", "loc": 0, "sign": false}]}
+{"cluster_id": 26, "ops": [{"type": "add_point", "l": -1, "r": 0}]}
+{"cluster_id": 27, "ops": [{"type": "add_point", "l": 0, "r": 1}, {"type": "add_point", "l": -1, "r": 0}]}
+{"cluster_id": 28, "ops": [{"type": "increase", "loc": 0, "sign": true}, {"type": "add_point", "l": 1, "r": 2}, {"type": "decrease", "loc": 2, "sign": false}, {"type": "increase", "loc": 1, "sign": false}, {"type": "add_point", "l": 1, "r": 2}]}
+{"cluster_id": 30, "ops": [{"type": "increase", "loc": 2, "sign": true}, {"type": "add_point", "l": 1, "r": 2}, {"type": "add_point", "l": 3, "r": 4}]}

@@ -1,0 +1,15 @@
+{"sentence_id": 1, "sentence": "The system shall be able to validate API keys in less than 2 seconds.", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 2, "sentence": "The system shall be able to backup 3000 records per second.", "label": [[2700.0, 0.0], [3000.0, 1.0], [3300.0, 0.0]]}
+{"sentence_id": 3, "sentence": "A report will display 50 data entries.", "label": [[45.0, 0.0], [50.0, 1.0], [55.0, 0.0]]}
+{"sentence_id": 4, "sentence": "Query times will take no longer than 10 seconds to any data warehouse.", "label": [[10.0, 1.0], [11.0, 0.0]]}
+{"sentence_id": 5, "sentence": "The system shall be able to email support staff and testers in less than 1 second.", "label": [[1.0, 1.0], [1.1, 0.0]]}
+{"sentence_id": 6, "sentence": "If notification is specified the user shall confirm transfer from Enabled to Disabled status within 5 seconds.", "label": [[5.0, 1.0], [5.5, 0.0]]}
+{"sentence_id": 7, "sentence": "The system shall have an availability of 99.90%.", "label": [[89.91, 0.0], [99.9, 1.0]]}
+{"sentence_id": 8, "sentence": "The system shall be able to acquire subscription fees in less than 2 seconds.", "label": [[2.0, 1.0], [2.2, 0.0]]}
+{"sentence_id": 9, "sentence": "Sending the alert to the default mobile device will take less than 1 second.", "label": [[1.0, 1.0], [1.1, 0.0]]}
+{"sentence_id": 10, "sentence": "The software component is required to be functional at a maximum processing speed of 2000 transactions per second.", "label": [[1800.0, 0.0], [2000.0, 1.0]]}
+{"sentence_id": 11, "sentence": "Loading the application settings will take less than 10 seconds.", "label": [[10.0, 1.0], [11.0, 0.0]]}
+{"sentence_id": 12, "sentence": "Grouping results should take less than 0.1 seconds.", "label": [[0.1, 1.0], [0.11, 0.0]]}
+{"sentence_id": 13, "sentence": "Data to enable investigation of system crashes need only be stored for at least 72 hours, and shall be very detailed.", "label": [[64.8, 0.0], [72.0, 1.0], [79.2, 0.0]]}
+{"sentence_id": 14, "sentence": "The session token shall consist of a maximum of 12 alphanumeric characters.", "label": [[10.8, 0.0], [12.0, 1.0], [13.2, 0.0]]}
+{"sentence_id": 15, "sentence": "The system shall be able to search for a specified file in less than 1 second.", "label": [[1.0, 1.0], [1.1, 0.0]]}

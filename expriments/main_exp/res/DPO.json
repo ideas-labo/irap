@@ -1,0 +1,46 @@
+[
+    {
+        "dataset": "Functional-Quality",
+        "result": {
+            "DPO": {
+                "P2P-Dist": "1.3047 (0.2944)",
+                "Chebyshev": "0.8346 (0.3315)",
+                "RMSE": "0.5694 (0.2914)",
+                "Area-Diff": "0.4043 (0.3784)"
+            }
+        }
+    },
+    {
+        "dataset": "Promise",
+        "result": {
+            "DPO": {
+                "P2P-Dist": "1.2651 (0.4563)",
+                "Chebyshev": "0.8458 (0.2846)",
+                "RMSE": "0.5118 (0.2548)",
+                "Area-Diff": "0.3495 (0.2804)"
+            }
+        }
+    },
+    {
+        "dataset": "PURE",
+        "result": {
+            "DPO": {
+                "P2P-Dist": "1.1772 (0.5105)",
+                "Chebyshev": "0.9277 (0.1327)",
+                "RMSE": "0.6063 (0.1895)",
+                "Area-Diff": "0.4675 (0.2713)"
+            }
+        }
+    },
+    {
+        "dataset": "Shaukat_et_al",
+        "result": {
+            "DPO": {
+                "P2P-Dist": "1.0515 (0.3998)",
+                "Chebyshev": "0.9480 (0.1267)",
+                "RMSE": "0.5405 (0.1765)",
+                "Area-Diff": "0.3761 (0.2340)"
+            }
+        }
+    }
+]

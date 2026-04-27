@@ -1,0 +1,15 @@
+{"index": 1, "p2p_distance": 0.022333333333333354, "chebyshev_distance": 0.04500000000000004, "rmse": 0.023789913829184037, "area_difference": 0.022249999999999992}
+{"index": 2, "p2p_distance": 0.10006464553099095, "chebyshev_distance": 0.5369047619047619, "rmse": 0.21210994375191303, "area_difference": 0.130800464037123}
+{"index": 3, "p2p_distance": 0.10006481241173588, "chebyshev_distance": 0.5369523809523808, "rmse": 0.21212673504302004, "area_difference": 0.13081206496519718}
+{"index": 4, "p2p_distance": 0.015666666666666662, "chebyshev_distance": 0.04500000000000004, "rmse": 0.0259726779520326, "area_difference": 0.02200000000000002}
+{"index": 5, "p2p_distance": 0.030666666666666658, "chebyshev_distance": 0.08999999999999997, "rmse": 0.030733694864106396, "area_difference": 0.021499999999999964}
+{"index": 6, "p2p_distance": 0.889, "chebyshev_distance": 0.02200000000000002, "rmse": 0.015556349186104058, "area_difference": 0.01100000000000001}
+{"index": 7, "p2p_distance": 0.023499999999999965, "chebyshev_distance": 0.04699999999999993, "rmse": 0.029162733068078463, "area_difference": 0.023499999999999965}
+{"index": 8, "p2p_distance": 0.0, "chebyshev_distance": 0.0, "rmse": 0.0, "area_difference": 0.0}
+{"index": 9, "p2p_distance": 0.030666666666666658, "chebyshev_distance": 0.08999999999999997, "rmse": 0.030733694864106396, "area_difference": 0.021499999999999964}
+{"index": 10, "p2p_distance": 0.0, "chebyshev_distance": 0.0, "rmse": 0.0, "area_difference": 0.0}
+{"index": 11, "p2p_distance": 0.015666666666666662, "chebyshev_distance": 0.04500000000000004, "rmse": 0.0259726779520326, "area_difference": 0.02200000000000002}
+{"index": 12, "p2p_distance": 0.0, "chebyshev_distance": 0.0, "rmse": 0.0, "area_difference": 0.0}
+{"index": 13, "p2p_distance": 0.10018101365036869, "chebyshev_distance": 0.5617724867724866, "rmse": 0.22164992266962766, "area_difference": 0.13685872647589584}
+{"index": 14, "p2p_distance": 0.1000269126849737, "chebyshev_distance": 0.523809523809524, "rmse": 0.20768894902349833, "area_difference": 0.1276102088167054}
+{"index": 15, "p2p_distance": 0.0, "chebyshev_distance": 0.0, "rmse": 0.0, "area_difference": 0.0}
