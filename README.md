@@ -1,5 +1,5 @@
 
-# IRAPE
+# IRAP
 The repository for the ACL paper "Conjecture and Inquiry: Quantifying Software Performance Requirements via Interactive Retrieval-Augmented Preference Elicitation"
 
 ## Environment Setup
@@ -10,14 +10,14 @@ pip install -e .
 All dependency packages listed in `install_requires` of `setup.py` will be installed automatically.
 
 ## Code Overview
-The `IRAPE` directory contains the following contents:
+The `IRAP` directory contains the following contents:
 ```
 Anal_reason  
 Base_gen  
 Query
 base_op.py  infer.py  KM.py  
 ```
-Among them, `Base_gen` is the code implementation for the basic quantification form generation phase of IRAPE; `Anal_reason` is the code implementation for the analogical reasoning phase of IRAPE; `Query` is the code implementation for the iterative interaction phase of IRAPE.
+Among them, `Base_gen` is the code implementation for the basic quantification form generation phase of IRAP; `Anal_reason` is the code implementation for the analogical reasoning phase of IRAP; `Query` is the code implementation for the iterative interaction phase of IRAP.
 
 The `sota` directory contains the following contents:
 ```
@@ -31,11 +31,11 @@ The `dataset` folder is used to store datasets.
 
 The `expriments` folder stores experimental results and experimental code.
 
-## IRAPE Usage Example
-The `IRAPE/infer.py` file provides a usage example of IRAPE.
+## IRAP Usage Example
+The `IRAPE/infer.py` file provides a usage example of IRAP.
 
 ## Experiment Preparation
-### Training the IRAPE Model
+### Training the IRAP Model
 Execute the following commands to fine-tune the Roberta model and GPT2 model, respectively. The training results will be saved in `IRAPE/Base_gen/models`.
 ```bash
 python IRAPE/Base_gen/retrieval_classify.py
